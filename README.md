@@ -5,12 +5,22 @@ The system for regulation of zone heating of family house. Proposed control syst
 ## Description of overall concept
 There is a heating system of house in the picture. The source of heat is fireplace in cellar, on the ground floor and on the first floor. All the fireplaces have a heat exchanger. The fireplaces with heat exchanger is for heating of heating water which flows through insert of fireplace. This insert of fireplace recharges hot water tank (HWT). In the ground floor and in the first floor is distributor of underfloor heating with 12 heating circuit. Every the heating circuit is possible to control independent. There is pump and manual three-way mixing valve for settings optimal temperature into underfloor heating. The first source of heat is gas condensing boiler, which is not currently installed. This gas boiler will use for heating of heating water in the summer season (for heating of domestic hot water (DHW)), where the fireplaces will not to use. The both source of heat are for heating of heating water into central tank (volume us 1 500 l). In the upper one third of the height of the tank is installed container for DHW (volume is 120 l). The system controls pumps at the distributors of underfloor heating, the pumps for fireplaces with exchanger and drives for individual circuit of underfloor heating. If there is request for heating from a room, the pumps will be controlled. If some makes a fire in fireplace, the selected pump at the fireplace will be turn on.
 
-Obrázek 3.1: Otopná soustava v domě
+<p align="center">
+<img src="diagrams/drawio/png/heating-system-rust-of-house.png" width="550px" alt="Heating system in the house">
+</p>
+<p align="center">
+Picture 1: Heating system in the house.
+</p>
 
 ### Hardware part
 There is hardware concept in the picture.
 
-Obrázek 3.2: Návrh hardwarové části systému.
+<p align="center">
+<img src="diagrams/drawio/png/hardware-part.png" width="550px" alt="Hardware part">
+</p>
+<p align="center">
+Picture 2: Hardware part.
+</p>
 
 Central control unit is single board computer. 
 
