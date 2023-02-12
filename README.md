@@ -39,6 +39,15 @@ Networdk devices are composite from central switch, switch with POE abd home WiF
 The temperature sensors in HWT are deployed in three parts of tank (top, middle and bottom part). There are temperatures sensor in smoke flues at individually fireplaces for detection of heating in a fireplace. 
 
 ### Communication part
+There is communication concept in the picture.
+
+<p align="center">
+<img src="diagrams/drawio/png/communication-part.png" width="550px" alt="Hardware part">
+</p>
+<p align="center">
+Picture 3: Communication part.
+</p>
+
 The communication between central control unit and wireless/cable WRTS is via protocol MQTT. The central control unit receives information from individual WRTS. Some settings for WRTS is possible to change in the central control unit and sends this settings into WRTS.
 
 The status indicators communicates with the central control unit via I2C bus for showing values on a display. Indicated LED are connect in input/output pins of the central control unit.
