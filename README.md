@@ -58,3 +58,22 @@ The zone controller communicates with the central control unit via I2C bus. The 
 
 The temperature sensors are located in HWT, in smoke flue of fireplaces and outdoor temperature. All sensors communicate  with the central control unit via 1-Wire bus.
 
+## Hardware part
+In the picture is drawing of heating system with individual devices for control this system. In the text are descripted individual selected or designed devices whic are descripted in the drawing. In the text is description of WRTS.
+
+Obrázek 4.1: Otopná soustava v domě včetně elektroniky pro řízení
+
+### Central control unit Raspberry Pi
+Obrázek 4.2: Výřez z obrázku 4.1 – centrální jednotka
+In the picture is cutout of part from all drawing (picture 4.1) for central controll unit. The central control unit is Raspberry Pi model 4b.
+
+### Temperature sensors
+Obrázek 4.3: Výřez z obrázku 4.1 – umístění teplotních senzorů
+
+In the picutre 43.a is cutout of part from all drawing (picture 4.1) for location temperature sensors at a fireplace flue. For getting temperature from  the fireplace flue is termocouple 72-21301041 type K from manufacture Güenther.
+The temperature range is from -100 °C to 400 °C. The termocouple is in the picture 4.4.
+
+Obrázek 4.4: Termočlánek 72-21301041 typu K. Upraveno z [42]
+
+In the picutre 4.3b is cutout of part from all drawing (picture 4.1) for location temperature sensor in the HWT. Pro getting temperature from central HWT, outdoor temperature and room temperature from individual rooms is temperature sensor DS18B20 from manufacture Maxim. The temperatue range is from -55 °C to +125 °C. It is used sensors in a package TO-92 for WRTS, for HWT and oudoor temperature is sensor stored into protection package.
+
