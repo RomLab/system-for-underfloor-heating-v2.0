@@ -77,3 +77,12 @@ Obrázek 4.4: Termočlánek 72-21301041 typu K. Upraveno z [42]
 
 In the picutre 4.3b is cutout of part from all drawing (picture 4.1) for location temperature sensor in the HWT. Pro getting temperature from central HWT, outdoor temperature and room temperature from individual rooms is temperature sensor DS18B20 from manufacture Maxim. The temperatue range is from -55 °C to +125 °C. It is used sensors in a package TO-92 for WRTS, for HWT and oudoor temperature is sensor stored into protection package.
 
+#### Realization of 1-Wire bus at the heating water tank
+Obrázek 4.5: Výřez z obrázku 4.1 – umístění sdružení 1-Wire sběrnice u ZOV.
+
+In the picutre 43.a is cutout of part from all drawing (picture 4.1) for association 1-Wire bus at HWT. In the picture 4.6a is PCB for temperature sensor at HWT. In the picutre 4.6b is top part PCB which is located in the installation box. There are 6 position for fastening via terminal block for temperature sensors. There are 3 temperature sensors connect for getting temperature from top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted into cavity. The 1-Eier bus is implemented with UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. For getting outdoor temperature is sensor DS18b20 in the package TO-92 which is attached on the UTP cable and sealed off plastic material, which is covered with shrink protective tube. In the picuter 4.7 are marked places with location of temperature sensors. 
+
+Sdružení 1-Wire sběrnice u ZOV
+
+Obrázek 4.7: ZOV – červené kroužky označují umístění teplotních senzorů.
+
