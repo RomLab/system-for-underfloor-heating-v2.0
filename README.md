@@ -86,3 +86,10 @@ Sdružení 1-Wire sběrnice u ZOV
 
 Obrázek 4.7: ZOV – červené kroužky označují umístění teplotních senzorů.
 
+### I2C bus
+Obrázek 4.8: Výřez z obrázku 4.1 – modul I2C sběrnice u centrální jednotky
+
+In the picutre 4.8. is cutout of part from all drawing (picture 4.1) for modul I2C bus at central control unit. The I2C bus is realized with integrated circuit PCA9615 from manufacture NXP Semiconductors. The signal SCL and SDA is connected directly from the central control unit into input PCA9615, supply voltage is 3.3 V. The output from PCA9615 is differential signal. The power supply on this side is 5 V. The bus is implemented via UTP cable category 5e, output form PCA9615 is implemented  via RJ45 connector. The UTP cable and differential transmission enable reach a long distance bus. The longest point of bus is about 30 m. The frequency used is 100 kHz. It is therefore a full-fledged I2C bus.
+The reason for choosing this variant was based on the choice of a display with an I2C bus (simple and cheap solution), furthermore, it is a classic connection of the display, as if it were located at a small distance from the central unit and it is not necessary transfer as RS485 to UART and then to I2C bus. The communication is defined via I2C protokol. The one PCA9615 is located at central control unit and other PCA9615 are located at the ends of the end devices.
+The power supply 5 V is implemented via separate cable. In the one UTP is 1-Wire bus and I2C bus - saving cables. 
+
