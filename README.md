@@ -95,3 +95,24 @@ In the picutre 4.8. is cutout of part from all drawing (picture 4.1) for modul I
 The reason for choosing this variant was based on the choice of a display with an I2C bus (simple and cheap solution), furthermore, it is a classic connection of the display, as if it were located at a small distance from the central unit and it is not necessary transfer as RS485 to UART and then to I2C bus. The communication is defined via I2C protokol. The one PCA9615 is located at central control unit and other PCA9615 are located at the ends of the end devices.
 The power supply 5 V is implemented via separate cable. In the one UTP is 1-Wire bus and I2C bus - saving cables. 
 
+
+## Signalization by fireplace
+4.15: Výřez z obrázku 4.1 – umístění signalizace stavů u krbu
+
+In the picutre 4.15 is cutout of part from all drawing (picture 4.1) for signalization of status by fireplace. The PCB is composed from electronic fuse TPS2600 for protection 5 V. All input/output connectors have ESD protection (TVS diodes). The 1-Wire and I2C bus are connected vis UTP cable (connector RJ45). There are terminal blocks for LED signalization of accumulated HWT. Tthe blue LED is for top part of tank, the orange LED is for middle part of tank and the red LED is for bottom part of tank.
+
+Temperature measurement using a thermocouple and a MAX31850K converter
+The temperature sensors connected to the flues of the fireplace are implemented using a thermocouple. Tthe termocouple is connected to integrated circuit MAX31850K, value from the thermocouple is transferred into digital value including low temperature compensation end and this value is send via 1-Wire bus. The thermocouple is type K.
+
+### LCD display
+For showing temperatures from bottom, middle and top part of HWT was selected 20 characters and 3 rows LCD display with blue backlight and white letters. The HD44780 controller is used to control the display. An I2C expander PCF8574 is connected to the controller with eight outputs, whicj are connected on data bus for control respectively displaying the character on the display. Each display, or PCF8574 expander, allows you to set a unique device address on the bus using jumpers A0, A1, A2.
+
+Obrázek 4.18: LCD displej pro zobrazování teplot ze ZOV [57].
+
+Realized DPS Signalization by  fireplace
+
+Obrázky DPS
+
+### Installation box
+All electronics are located in a protective installation box (picture 4.21a). The box includes two wires for voltage 5 V and ground, three cables for controlling the signaling LEDs, a UTP cable with a 1-Wire bus for the temperature sensor (thermocouple) and an I2C bus.
+
