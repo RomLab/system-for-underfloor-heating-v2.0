@@ -167,7 +167,7 @@ Picture 15: The panel type 2. The panel with bottom PCB. The panel with top PCB.
 **PCB and 3D models:**
 
 * [PCB in KiCAD, Gerber data, …](https://github.com/RomLab/pcb-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
-* [3D models of box in FreCAD, STEP files, GCODE for Prusa's printer](https://github.com/RomLab/3d-model-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
+* [3D models of box in FreCAD, STEP files, GCODE for Prusa's printer, …](https://github.com/RomLab/3d-model-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
 
 ---
 
