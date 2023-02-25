@@ -133,14 +133,41 @@ Picture 13: Realized PCB of signalization by fireplace. The bottom part of PCB w
 </p>
 
 ### Installation box
+**Type 1**
+
+It is used a [installation box](https://eshop.sez-cz.cz/e-shop/3597-universalni-krabice-pod-omitku-200x200x70mm?cat_id=129) (SEZ manufacturer, EAN 8585027005075) only (orange) rear part. The top part is printed from 3D printer.
+
 All electronics are located in a protective installation box (picture 14). The box includes two wires for voltage 5 V and ground, three cables for controlling the signaling LEDs, a UTP cable with a 1-Wire bus for the temperature sensor (thermocouple) and an I2C bus.
 
 <p align="center">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-bottom.jpg" width="450px" alt="The panel with bottom PCB.">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-top.jpg" width="450px" alt="The panel with top PCB.">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/all-installation-1.jpg" width="450px" alt="All installation by a fireplace.">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-bottom.jpg" width="450px" alt="The panel type 1 with bottom PCB.">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-top.jpg" width="450px" alt="The panel type 1 with top PCB.">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/all-installation-1.jpg" width="450px" alt="All installation of the panel type 1 by a fireplace.">
 </p>
 <p align="center">
-Picture 14: The panel with bottom PCB. The panel with top PCB. All installation by a fireplace.
+Picture 14: The panel type 1. The panel with bottom PCB. The panel with top PCB. All installation by a fireplace.
 </p>
+
+**Type 2**
+
+It is used a [installation box](https://www.gme.cz/v/1511578/u-01-26-instalacni-krabice) (Vigan manufacturer, EAN 90317). The holder for PCB top printed from 3D printer. This printed part is pasted with epoxy adhesive.
+
+<p align="center">
+<img src="photos-of-final-products/signalization-by-fireplace/type-2/panel-with-pcb-bottom.jpg" width="450px" alt="The panel type 2 with bottom PCB.">
+<img src="photos-of-final-products/signalization-by-fireplace/type-2/panel-with-pcb-top.jpg" width="450px" alt="The panel type 2 with top PCB.">
+</p>
+<p align="center">
+Picture 15: The panel type 2. The panel with bottom PCB. The panel with top PCB.
+</p>
+
+---
+ [More pictures](/photos-of-final-products/signalization-by-fireplace)
+
+---
+**PCB and 3D models:**
+
+* [PCB in KiCAD, Gerber data, …](https://github.com/RomLab/pcb-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
+* [3D models of box in FreCAD, STEP files, GCODE for Prusa's printer](https://github.com/RomLab/3d-model-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
+
+---
 
