@@ -97,22 +97,50 @@ The power supply 5 V is implemented via separate cable. In the one UTP is 1-Wire
 
 
 ## Signalization by fireplace
-4.15: Výřez z obrázku 4.1 – umístění signalizace stavů u krbu
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-signalization-by-fireplace.png" width="250px" alt="Coutout of signalization by fireplace">
+</p>
+<p align="center">
+Picture 11: Coutout from picture 4 – signalization by fireplace.
+</p>
 
-In the picutre 4.15 is cutout of part from all drawing (picture 4.1) for signalization of status by fireplace. The PCB is composed from electronic fuse TPS2600 for protection 5 V. All input/output connectors have ESD protection (TVS diodes). The 1-Wire and I2C bus are connected vis UTP cable (connector RJ45). There are terminal blocks for LED signalization of accumulated HWT. Tthe blue LED is for top part of tank, the orange LED is for middle part of tank and the red LED is for bottom part of tank.
+
+In the picutre 11 is cutout of part from all drawing (picture 4) for signalization of status by fireplace. The PCB is composed from electronic fuse TPS2600 for protection 5 V. All input/output connectors have ESD protection (TVS diodes). The 1-Wire and I2C bus are connected vis UTP cable (connector RJ45). There are terminal blocks for LED signalization of accumulated HWT. Tthe blue LED is for top part of tank, the orange LED is for middle part of tank and the red LED is for bottom part of tank.
 
 Temperature measurement using a thermocouple and a MAX31850K converter
 The temperature sensors connected to the flues of the fireplace are implemented using a thermocouple. Tthe termocouple is connected to integrated circuit MAX31850K, value from the thermocouple is transferred into digital value including low temperature compensation end and this value is send via 1-Wire bus. The thermocouple is type K.
 
 ### LCD display
-For showing temperatures from bottom, middle and top part of HWT was selected 20 characters and 3 rows LCD display with blue backlight and white letters. The HD44780 controller is used to control the display. An I2C expander PCF8574 is connected to the controller with eight outputs, whicj are connected on data bus for control respectively displaying the character on the display. Each display, or PCF8574 expander, allows you to set a unique device address on the bus using jumpers A0, A1, A2.
+For showing temperatures from bottom, middle and top part of HWT was selected 20 characters and 4 rows LCD display with blue backlight and white letters. The HD44780 controller is used to control the display. An I2C expander PCF8574 is connected to the controller with eight outputs, whicj are connected on data bus for control respectively displaying the character on the display. Each display, or PCF8574 expander, allows you to set a unique device address on the bus using jumpers A0, A1, A2.
 
-Obrázek 4.18: LCD displej pro zobrazování teplot ze ZOV [57].
+<p align="center">
+<img src="description-pictures/lcd-hd44780-20x4-2004a-rear.png" width="250px" alt="LCD display 20x4 with controller HD44780 - rear">
+<img src="description-pictures/lcd-hd44780-20x4-2004a-top.png" width="250px" alt="LCD display 20x4 with controller HD44780 - top">
+</p>
+<p align="center">
+Picture 12: LCD display for displaying of temperatures from HWT. Rear and top part of LCD.
+</p>
 
-Realized DPS Signalization by  fireplace
+### Realized PCB of signalization by fireplace
 
-Obrázky DPS
+<p align="center">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/pcb-without-display-bottom.jpg" width="450px" alt="The bottom part of PCB without the LCD.">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/pcb-with-display-bottom.jpg" width="450px" alt="The bottom part of PCB with the LCD.">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/pcb-without-display-top.jpg" width="450px" alt="The top part of PCB.">
+</p>
+<p align="center">
+Picture 13: Realized PCB of signalization by fireplace. The bottom part of PCB without the LCD, the bottom part of PCB with the LCD and the top part of PCB.
+</p>
 
 ### Installation box
-All electronics are located in a protective installation box (picture 4.21a). The box includes two wires for voltage 5 V and ground, three cables for controlling the signaling LEDs, a UTP cable with a 1-Wire bus for the temperature sensor (thermocouple) and an I2C bus.
+All electronics are located in a protective installation box (picture 14). The box includes two wires for voltage 5 V and ground, three cables for controlling the signaling LEDs, a UTP cable with a 1-Wire bus for the temperature sensor (thermocouple) and an I2C bus.
+
+<p align="center">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-bottom.jpg" width="450px" alt="The panel with bottom PCB.">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-top.jpg" width="450px" alt="The panel with top PCB.">
+<img src="photos-of-final-products/signalization-by-fireplace/type-1/all-installation-1.jpg" width="450px" alt="All installation by a fireplace.">
+</p>
+<p align="center">
+Picture 14: The panel with bottom PCB. The panel with top PCB. All installation by a fireplace.
+</p>
 
