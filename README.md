@@ -61,7 +61,12 @@ The temperature sensors are located in HWT, in smoke flue of fireplaces and outd
 ## Hardware part
 In the picture 4 is drawing of heating system with individual devices for control this system. In the text are descripted individual selected or designed devices whic are descripted in the drawing. In the text is description of WRTS.
 
-Obrázek 4: Otopná soustava v domě včetně elektroniky pro řízení
+<p align="center">
+<img src="diagrams/drawio/png/heating-system-and-electronics-rust-of-house.png" width="700px" alt="Heating system in the house">
+</p>
+<p align="center">
+Picture 4: The Heating system in the house including control electronics.
+</p>
 
 ### Central control unit Raspberry Pi
 In the picture 5 is cutout of part from all drawing (picture 4) for central controll unit. The central control unit is Raspberry Pi model 4b.
