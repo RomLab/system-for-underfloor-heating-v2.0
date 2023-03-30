@@ -64,35 +64,35 @@ In the picture 4 is drawing of heating system with individual devices for contro
 Obrázek 4: Otopná soustava v domě včetně elektroniky pro řízení
 
 ### Central control unit Raspberry Pi
-In the picture 5 is cutout of part from all drawing (picture 4.1) for central controll unit. The central control unit is Raspberry Pi model 4b.
+In the picture 5 is cutout of part from all drawing (picture 4) for central controll unit. The central control unit is Raspberry Pi model 4b.
 
-Obrázek 5: Výřez z obrázku 4.1 – centrální jednotka
+Obrázek 5: Výřez z obrázku 4 – centrální jednotka
 
 ### Temperature sensors
-Obrázek 6: Výřez z obrázku 4.1 – umístění teplotních senzorů
+Obrázek 6: Výřez z obrázku 4 – umístění teplotních senzorů
 
-In the picutre 6 is cutout of part from all drawing (picture 4.1) for location temperature sensors at a fireplace flue. For getting temperature from  the fireplace flue is termocouple 72-21301041 type K from manufacture Güenther.
+In the picutre 6 is cutout of part from all drawing (picture 4) for location temperature sensors at a fireplace flue. For getting temperature from  the fireplace flue is termocouple 72-21301041 type K from manufacture Güenther.
 The temperature range is from -100 °C to 400 °C. The termocouple is in the picture 8.
 
-In the picutre 7 is cutout of part from all drawing (picture 4.1) for location temperature sensor in the HWT. Pro getting temperature from central HWT, outdoor temperature and room temperature from individual rooms is temperature sensor DS18B20 from manufacture Maxim. The temperatue range is from -55 °C to +125 °C. It is used sensors in a package TO-92 for WRTS, for HWT and oudoor temperature is sensor stored into protection package.
+In the picutre 7 is cutout of part from all drawing (picture 4) for location temperature sensor in the HWT. Pro getting temperature from central HWT, outdoor temperature and room temperature from individual rooms is temperature sensor DS18B20 from manufacture Maxim. The temperatue range is from -55 °C to +125 °C. It is used sensors in a package TO-92 for WRTS, for HWT and oudoor temperature is sensor stored into protection package.
 
 Obrázek 8: Termočlánek 72-21301041 typu K.
 
 #### 1-Wire bus
 The 1-Wire bus is implemented via UTP cable category 5e. 
 
-Obrázek 9: Výřez z obrázku 4.1 – umístění sdružení 1-Wire sběrnice u ZOV.
+Obrázek 9: Výřez z obrázku 4 – umístění sdružení 1-Wire sběrnice u ZOV.
 
-In the picutre 9 is cutout of part from all drawing (picture 4.1) for association 1-Wire bus at HWT. In the picture 10 is PCB for temperature sensor at HWT. In the picutre 4.6b is top part PCB which is located in the installation box. There are 6 position for fastening via terminal block for temperature sensors. There are 3 temperature sensors connect for getting temperature from top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted into cavity. The 1-Eier bus is implemented with UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. For getting outdoor temperature is sensor DS18b20 in the package TO-92 which is attached on the UTP cable and sealed off plastic material, which is covered with shrink protective tube. In the picuter 11 are marked places with location of temperature sensors. 
+In the picutre 9 is cutout of part from all drawing (picture 4) for association 1-Wire bus at HWT. In the picture 10 is PCB for temperature sensor at HWT. In the picutre 4.6b is top part PCB which is located in the installation box. There are 6 position for fastening via terminal block for temperature sensors. There are 3 temperature sensors connect for getting temperature from top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted into cavity. The 1-Eier bus is implemented with UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. For getting outdoor temperature is sensor DS18b20 in the package TO-92 which is attached on the UTP cable and sealed off plastic material, which is covered with shrink protective tube. In the picuter 11 are marked places with location of temperature sensors. 
 
 Obrázek 10: Sdružení 1-Wire sběrnice u ZOV.
 
 Obrázek 11: ZOV – červené kroužky označují umístění teplotních senzorů.
 
 ### I2C bus
-Obrázek 12: Výřez z obrázku 4.1 – modul I2C sběrnice u centrální jednotky
+Obrázek 12: Výřez z obrázku 4 – modul I2C sběrnice u centrální jednotky
 
-In the picutre 12. is cutout of part from all drawing (picture 4.1) for modul I2C bus at central control unit. The I2C bus is realized with integrated circuit PCA9615 from manufacture NXP Semiconductors. The signal SCL and SDA is connected directly from the central control unit into input PCA9615, supply voltage is 3.3 V. The output from PCA9615 is differential signal. The power supply on this side is 5 V. The bus is implemented via UTP cable category 5e, output form PCA9615 is implemented  via RJ45 connector. The UTP cable and differential transmission enable reach a long distance bus. The longest point of bus is about 30 m. The frequency used is 100 kHz. It is therefore a full-fledged I2C bus.
+In the picutre 12. is cutout of part from all drawing (picture 4) for modul I2C bus at central control unit. The I2C bus is realized with integrated circuit PCA9615 from manufacture NXP Semiconductors. The signal SCL and SDA is connected directly from the central control unit into input PCA9615, supply voltage is 3.3 V. The output from PCA9615 is differential signal. The power supply on this side is 5 V. The bus is implemented via UTP cable category 5e, output form PCA9615 is implemented  via RJ45 connector. The UTP cable and differential transmission enable reach a long distance bus. The longest point of bus is about 30 m. The frequency used is 100 kHz. It is therefore a full-fledged I2C bus.
 The reason for choosing this variant was based on the choice of a display with an I2C bus (simple and cheap solution), furthermore, it is a classic connection of the display, as if it were located at a small distance from the central unit and it is not necessary transfer as RS485 to UART and then to I2C bus. The communication is defined via I2C protokol. The one PCA9615 is located at central control unit and other PCA9615 are located at the ends of the end devices.
 The power supply 5 V is implemented via separate cable. In the one UTP is 1-Wire bus and I2C bus - saving cables. 
 
