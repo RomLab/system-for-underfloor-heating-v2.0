@@ -71,13 +71,30 @@ Picture 4: The Heating system in the house including control electronics.
 ### Central control unit Raspberry Pi
 In the picture 5 is cutout of part from all drawing (picture 4) for central controll unit. The central control unit is Raspberry Pi model 4b.
 
-Obrázek 5: Výřez z obrázku 4 – centrální jednotka
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-central-control-unit.png" width="250px" alt="Heating system in the house">
+</p>
+<p align="center">
+Picture 5: Coutout from picture 4 – the central control unit.
+</p>
 
 ### Temperature sensors
-Obrázek 6: Výřez z obrázku 4 – umístění teplotních senzorů
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-signalization-by-fireplace-with-temperature-sensor.png" width="250px" alt="Location of temperature sensors at fireplace">
+</p>
+<p align="center">
+Picture 6: Coutout from picture 4 – location of temperature sensors at fireplace.
+</p>
 
 In the picutre 6 is cutout of part from all drawing (picture 4) for location temperature sensors at a fireplace flue. For getting temperature from  the fireplace flue is termocouple 72-21301041 type K from manufacture Güenther.
 The temperature range is from -100 °C to 400 °C. The termocouple is in the picture 8.
+
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-domestic-hot-water-with-temperatures-sensor.png" width="250px" alt="Location of temperature sensors in the heating water tank">
+</p>
+<p align="center">
+Picture 7: Coutout from picture 4 – location of temperature sensors in the heating water tank.
+</p>
 
 In the picutre 7 is cutout of part from all drawing (picture 4) for location temperature sensor in the HWT. Pro getting temperature from central HWT, outdoor temperature and room temperature from individual rooms is temperature sensor DS18B20 from manufacture Maxim. The temperatue range is from -55 °C to +125 °C. It is used sensors in a package TO-92 for WRTS, for HWT and oudoor temperature is sensor stored into protection package.
 
@@ -86,7 +103,12 @@ Obrázek 8: Termočlánek 72-21301041 typu K.
 #### 1-Wire bus
 The 1-Wire bus is implemented via UTP cable category 5e. 
 
-Obrázek 9: Výřez z obrázku 4 – umístění sdružení 1-Wire sběrnice u ZOV.
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-1-wire-bus.png" width="250px" alt="Heating system in the house">
+</p>
+<p align="center">
+Picture 9: Coutout from picture 4 – location of merge 1-Wire bus at the HWT.
+</p>
 
 In the picutre 9 is cutout of part from all drawing (picture 4) for association 1-Wire bus at HWT. In the picture 10 is PCB for temperature sensor at HWT. In the picutre 4.6b is top part PCB which is located in the installation box. There are 6 position for fastening via terminal block for temperature sensors. There are 3 temperature sensors connect for getting temperature from top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted into cavity. The 1-Eier bus is implemented with UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. For getting outdoor temperature is sensor DS18b20 in the package TO-92 which is attached on the UTP cable and sealed off plastic material, which is covered with shrink protective tube. In the picuter 11 are marked places with location of temperature sensors. 
 
