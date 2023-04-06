@@ -90,7 +90,7 @@ In the picutre 6 is cutout of part from all drawing (picture 4) for location tem
 The temperature range is from -100 °C to 400 °C. The termocouple is in the picture 8.
 
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-domestic-hot-water-with-temperatures-sensor.png" width="250px" alt="Location of temperature sensors in the heating water tank">
+<img src="diagrams/drawio/png/cutout-of-hot-water-tank-with-temperatures-sensor.png" width="250px" alt="Location of temperature sensors in the heating water tank">
 </p>
 <p align="center">
 Picture 7: Coutout from picture 4 – location of temperature sensors in the heating water tank.
