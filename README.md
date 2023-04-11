@@ -224,5 +224,12 @@ In the picture 18 is cutout of part from all drawing (picture 4) for zone contro
 
 ### Thermoelectric drives Salus T30NC
 
-The Salus T30NC thermoelectric drive is used to control valves for individual heating circuits. It is supply with 24 V DC, maximum current peak when turn on it is 250 mA. Operating power is 2 W. The thread size is M30 × 1.5. Maximum valve stem stroke length is 4 mm. The drive force is 100 N (±10%). The time for opening is approximately 2 minutes. It is type of NC (Normally Closed). When the power is off, the valve is closed. The 12 of these drives are used for each floor.
+In the picture 19 is a Salus T30NC thermoelectric drive is used to control valves for individual heating circuits. It is supply with 24 V DC, maximum current peak when turn on it is 250 mA. Operating power is 2 W. The thread size is M30 × 1.5. Maximum valve stem stroke length is 4 mm. The drive force is 100 N (±10%). The time for opening is approximately 2 minutes. It is type of NC (Normally Closed). When the power is off, the valve is closed. The 12 of these drives are used for each floor.
+
+<p align="center">
+<img src="photos-of-final-products/others/thermoelectric-drive-salus-t30nc-24v.png" width="250px" alt="Thermoelectric drive Salus T30NC.">
+</p>
+<p align="center">
+Picture 19: Thermoelectric drive Salus T30NC.
+</p>
 
