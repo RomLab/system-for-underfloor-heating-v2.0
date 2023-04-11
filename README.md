@@ -206,7 +206,6 @@ Picture 17: The panel type 2. The panel with bottom PCB. The panel with top PCB.
 
 * [PCB in KiCAD, Gerber data, …](https://github.com/RomLab/pcb-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
 * [3D models of box in FreCAD, STEP files, GCODE for Prusa's printer, …](https://github.com/RomLab/3d-model-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
-
 ---
 
 ## Zone controller
@@ -232,4 +231,14 @@ In the picture 19 is a Salus T30NC thermoelectric drive is used to control valve
 <p align="center">
 Picture 19: Thermoelectric drive Salus T30NC.
 </p>
+
+---
+ [More pictures](/photos-of-final-products/zone-controller)
+
+---
+**PCB and 3D models:**
+
+* [PCB in KiCAD, Gerber data, …](https://github.com/RomLab/pcb-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
+* [3D models of box in FreCAD, STEP files, GCODE for Prusa's printer, …](https://github.com/RomLab/3d-model-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
+---
 
