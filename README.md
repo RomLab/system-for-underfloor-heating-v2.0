@@ -242,3 +242,13 @@ Picture 19: Thermoelectric drive Salus T30NC.
 * [3D models of box in FreCAD, STEP files, GCODE for Prusa's printer, …](https://github.com/RomLab/3d-model-system-for-underfloor-heating-v2.0/tree/main/zone-controller)
 ---
 
+## Digital corridor thermostats
+
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-local-thermostat.png" width="250px" alt="Coutout from picture 4 – the digital corridor thermostat.">
+</p>
+<p align="center">
+Picture 20: Coutout from picture 4 – the digital corridor thermostats.
+</p>
+
+In the picture 20 is cutout of part from all drawing (picture 4) for digital corridor thermostats. For measuring temperatures from individual floors in corridors are used digital thermostat marked as W3230. The thermostat has one switching output (if heating is required, the output is switched on, otherwise it is switched off). It is possible to set hysteresis, time delay, temperature calibration and maximum temperature range. It is also possible to activate a signal that is triggered when the maximum permissible temperature is reached. For the power supply is 12 V DC. For temperature sensing is used NTC thermistor. The temperature range is -40 °C to 120 °C. The measurement accuracy is ± 0.1 °C. The thermostat can be replaced with any other one that has a switching output.
