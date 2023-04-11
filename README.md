@@ -112,9 +112,19 @@ Picture 9: Coutout from picture 4 – location of merge 1-Wire bus at the HWT.
 
 In the picutre 9 is cutout of part from all drawing (picture 4) for association 1-Wire bus at HWT. In the picture 10 is PCB for temperature sensor at HWT. In the picutre 4.6b is top part PCB which is located in the installation box. There are 6 position for fastening via terminal block for temperature sensors. There are 3 temperature sensors connect for getting temperature from top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted into cavity. The 1-Eier bus is implemented with UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. For getting outdoor temperature is sensor DS18b20 in the package TO-92 which is attached on the UTP cable and sealed off plastic material, which is covered with shrink protective tube. In the picuter 11 are marked places with location of temperature sensors. 
 
-Obrázek 10: Sdružení 1-Wire sběrnice u ZOV.
+<p align="center">
+<img src="/photos-of-final-products/others/sensor-installation-box-at-heating-water-tank.png" width="250px" alt="WT – the red circles indicate the location of the temperature sensors.">
+</p>
+<p align="center">
+Picture 10: Merge of 1-Wire bus at HWT.
+</p>
 
-Obrázek 11: ZOV – červené kroužky označují umístění teplotních senzorů.
+<p align="center">
+<img src="/photos-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="Merge of 1-Wire bus at HWT.">
+</p>
+<p align="center">
+Picture 11: HWT – the red circles indicate the location of the temperature sensors.
+</p>
 
 ### I2C bus
 Obrázek 12: Výřez z obrázku 4 – modul I2C sběrnice u centrální jednotky
