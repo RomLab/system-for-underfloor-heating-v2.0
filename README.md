@@ -209,3 +209,20 @@ Picture 17: The panel type 2. The panel with bottom PCB. The panel with top PCB.
 
 ---
 
+## Zone controller
+
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-zone-controller.png" width="350px" alt="Coutout from picture 4 – the zone controller">
+</p>
+<p align="center">
+Picture 18: Coutout from picture 4 – the zone controller.
+</p>
+
+In the picture 18 is cutout of part from all drawing (picture 4) for zone controller. The zone controller is composite from integrated circuit PCA9615 for realization I2C bus via differential pairs. The bus itself is implemented using category 5e UTP cable. The PCA9615 is connected with PCA9685 from company NXP Semiconductors. The outputs from PCA9685 control individual thermoelectric drives (total of 12 drives, each controlled independently). This drives respectively valves control individual circuits. The zone regulators are located in the distributor of the heating circuits on the ground floor and the first floor of the house.
+
+### Realized PCB of zone controller
+
+### Thermoelectric drives Salus T30NC
+
+The Salus T30NC thermoelectric drive is used to control valves for individual heating circuits. It is supply with 24 V DC, maximum current peak when turn on it is 250 mA. Operating power is 2 W. The thread size is M30 × 1.5. Maximum valve stem stroke length is 4 mm. The drive force is 100 N (±10%). The time for opening is approximately 2 minutes. It is type of NC (Normally Closed). When the power is off, the valve is closed. The 12 of these drives are used for each floor.
+
