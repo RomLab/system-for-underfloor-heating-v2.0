@@ -97,7 +97,14 @@ In the picture 7 is cutout of part from all drawing (the picture 4) for location
 Picture 7: The cutout from the picture 4 – location of temperature sensors in the heating water tank.
 </p>
 
-Obrázek 8: Termočlánek 72-21301041 typu K.
+
+
+<p align="center">
+<img src="/pictures-of-final-products/others/thermocouple-72-21301041-k.png" width="250px" alt="Thermocouple 72-21301041 type K">
+</p>
+<p align="center">
+Picture 8: Thermocouple 72-21301041 type K.
+</p>
 
 #### 1-Wire bus
 The 1-Wire bus is implemented via UTP cable category 5e. 
