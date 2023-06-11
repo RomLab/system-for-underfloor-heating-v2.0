@@ -112,14 +112,14 @@ Picture 9: The cutout from the picture 4 – location of merge 1-Wire bus by the
 In the picture 9 is cutout of part from all drawing (the picture 4) for merge 1-Wire bus by HWT. In the picture 10 is a PCB for temperature sensor by HWT. In the picutre 4.6b is a top part PCB which is located in an installation box. There are 6 position for fastening via a terminal block for temperature sensors. There are 3 temperature sensors connect for obtain the temperature from the top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted to cavity. The 1-Wire bus is implemented with a UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. To obtain the temperature is sensor DS18B20 in the package TO-92 which is connected on the UTP cable and covered plastic material and covered with a shrink protective tube. In the picture 11 are marked places with location of temperature sensors.
 
 <p align="center">
-<img src="/photos-of-final-products/1-wire/hub-1-wire.jpg" width="250px" alt="The merge of 1-Wire bus by the HWT">
+<img src="/pictures-of-final-products/1-wire/hub-1-wire.jpg" width="250px" alt="The merge of 1-Wire bus by the HWT">
 </p>
 <p align="center">
 Picture 10: The merge of 1-Wire bus by the HWT.
 </p>
 
 <p align="center">
-<img src="/photos-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="The HWT – the red circles indicate the location of the temperature sensors">
+<img src="/pictures-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="The HWT – the red circles indicate the location of the temperature sensors">
 </p>
 <p align="center">
 Picture 11: The HWT – the red circles indicate the location of the temperature sensors.
@@ -160,9 +160,9 @@ Picture 14: The LCD display for displaying of temperatures from the HWT. The rea
 ### Realized PCB of signalization by fireplace
 
 <p align="center">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/pcb-without-display-bottom.jpg" width="450px" alt="The bottom part of PCB without the LCD.">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/pcb-with-display-bottom.jpg" width="450px" alt="The bottom part of PCB with the LCD.">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/pcb-without-display-top.jpg" width="450px" alt="The top part of PCB.">
+<img src="pictures-of-final-products/signalization-by-fireplace/type-1/pcb-without-display-bottom.jpg" width="450px" alt="The bottom part of PCB without the LCD.">
+<img src="pictures-of-final-products/signalization-by-fireplace/type-1/pcb-with-display-bottom.jpg" width="450px" alt="The bottom part of PCB with the LCD.">
+<img src="pictures-of-final-products/signalization-by-fireplace/type-1/pcb-without-display-top.jpg" width="450px" alt="The top part of PCB.">
 </p>
 <p align="center">
 The realized PCB of signalization by fireplace. The bottom part of PCB without the LCD, the bottom part of PCB with the LCD and the top part of PCB.
@@ -176,9 +176,9 @@ It is used a [installation box](https://eshop.sez-cz.cz/e-shop/3597-universalni-
 All electronics are located in a protective installation box (picture 16). The box includes two wires for voltage 5 V and ground, three cables for controlling the signaling LEDs, an UTP cable with the 1-Wire bus for the temperature sensor (thermocouple) and the I2C bus.
 
 <p align="center">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-bottom.jpg" width="450px" alt="The panel type 1 with bottom PCB.">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-top.jpg" width="450px" alt="The panel type 1 with top PCB.">
-<img src="photos-of-final-products/signalization-by-fireplace/type-1/all-installation-1.jpg" width="450px" alt="All installation of the panel type 1 by a fireplace.">
+<img src="pictures-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-bottom.jpg" width="450px" alt="The panel type 1 with bottom PCB.">
+<img src="pictures-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-top.jpg" width="450px" alt="The panel type 1 with top PCB.">
+<img src="pictures-of-final-products/signalization-by-fireplace/type-1/all-installation-1.jpg" width="450px" alt="All installation of the panel type 1 by a fireplace.">
 </p>
 <p align="center">
 Picture 16: The panel type 1. The panel with the bottom PCB. The panel with the top PCB. All installation by a fireplace.
@@ -189,15 +189,15 @@ Picture 16: The panel type 1. The panel with the bottom PCB. The panel with the 
 It is used a [installation box](https://www.gme.cz/v/1511578/u-01-26-instalacni-krabice) (Vigan manufacturer, EAN 90317), the picture 17. The holder for the PCB top printed from 3D printer. his printed part is pasted with epoxy adhesive.
 
 <p align="center">
-<img src="photos-of-final-products/signalization-by-fireplace/type-2/panel-with-pcb-bottom.jpg" width="450px" alt="The panel type 2 with bottom PCB.">
-<img src="photos-of-final-products/signalization-by-fireplace/type-2/panel-with-pcb-top.jpg" width="450px" alt="The panel type 2 with top PCB.">
+<img src="pictures-of-final-products/signalization-by-fireplace/type-2/panel-with-pcb-bottom.jpg" width="450px" alt="The panel type 2 with bottom PCB.">
+<img src="pictures-of-final-products/signalization-by-fireplace/type-2/panel-with-pcb-top.jpg" width="450px" alt="The panel type 2 with top PCB.">
 </p>
 <p align="center">
 Picture 17: The panel type 2. The panel with the bottom PCB. The panel with the top PCB.
 </p>
 
 ---
- [More pictures](/photos-of-final-products/signalization-by-fireplace)
+ [More pictures](/pictures-of-final-products/signalization-by-fireplace)
 
 ---
 **PCB and 3D models:**
@@ -224,14 +224,14 @@ In the picture 18 is cutout of part from all drawing (the picture 4) for the zon
 In the picture 19 is a Salus T30NC thermoelectric drive is used for control valves for individual heating circuits. It is supply with 24 V DC, maximum current peak when turn on it is 250 mA. Operating power is 2 W. The thread size is M30 × 1.5 mm. Maximum valve stem stroke length is 4 mm. The drive force is 100 N (±10%). The time for opening is approximately 2 minutes. It is type of NC (Normally Closed). When the power is off, the valve is closed. The 12 of these drives are used for each floor.
 
 <p align="center">
-<img src="photos-of-final-products/others/thermoelectric-drive-salus-t30nc-24v.png" width="250px" alt="Thermoelectric drive Salus T30NC.">
+<img src="pictures-of-final-products/others/thermoelectric-drive-salus-t30nc-24v.png" width="250px" alt="Thermoelectric drive Salus T30NC.">
 </p>
 <p align="center">
 Picture 19: The thermoelectric drive Salus T30NC.
 </p>
 
 ---
- [More pictures](/photos-of-final-products/zone-controller)
+ [More pictures](/pictures-of-final-products/zone-controller)
 
 ---
 **PCB and 3D models:**
