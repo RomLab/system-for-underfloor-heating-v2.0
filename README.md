@@ -100,7 +100,7 @@ Picture 7: The cutout from the picture 4 – location of temperature sensors in 
 
 
 <p align="center">
-<img src="/pictures-of-final-products/others/thermocouple-72-21301041-k.png" width="250px" alt="Thermocouple 72-21301041 type K">
+<img src="/pictures-of-final-products/others/thermocouple-72-21301041-type-k.png" width="250px" alt="Thermocouple 72-21301041 type K">
 </p>
 <p align="center">
 Picture 8: Thermocouple 72-21301041 type K.
