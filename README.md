@@ -232,6 +232,20 @@ In the picture 17 is cutout of part from all drawing (the picture 4) for the zon
 Picture 18: The realized PCB of the zone controller. The bottom part of PCB and the top part of PCB.
 </p>
 
+### Case
+
+<p align="center">
+<img src="pictures-of-final-products/zone-controller/panel-with-pcb-top.jpg" width="450px" alt=" The panel with the top PCB. ">
+<img src="pictures-of-final-products/zone-controller/panel-top.jpg" width="450px" alt="The top of part panel.">
+<img src="pictures-of-final-products/zone-controller/panel-with-shield-top.jpg" width="450px" alt="The panel with the bottom shield."> <br>
+<img src="pictures-of-final-products/zone-controller/panel-with-pcb-shield-front.jpg" width="450px" alt="The front side of the panel with the shield.">
+<img src="pictures-of-final-products/zone-controller/panel-with-pcb-shield-right.jpg" width="450px" alt="The right side of the panel with the shield.">
+</p>
+<p align="center">
+Picture 19: The panel with the top PCB. The top of part panel. The panel with the bottom shield. The front side of the panel with the shield. The right side of the panel with the shield.
+
+</p>
+
 ### Thermoelectric drives Salus T30NC
 
 In the picture 19 is a Salus T30NC thermoelectric drive is used for control valves for individual heating circuits. It is supply with 24 V DC, maximum current peak when turn on it is 250 mA. Operating power is 2 W. The thread size is M30 × 1.5 mm. Maximum valve stem stroke length is 4 mm. The drive force is 100 N (±10%). The time for opening is approximately 2 minutes. It is type of NC (Normally Closed). When the power is off, the valve is closed. The 12 of these drives are used for each floor.
