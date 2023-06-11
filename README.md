@@ -6,7 +6,7 @@ The system for regulation of zone heating of family house. Proposed control syst
 There is a heating system of house in the picture 1. The source of heat is fireplace in the cellar, on the ground floor and on the first floor. All the fireplaces have a heat exchanger. The fireplaces with heat exchanger are for heating of heating water which flows through fireplace insert. This fireplace insert recharges hot water tank (HWT). In the ground floor and in the first floor is distributor of underfloor heating with 12 heating circuit. Every the heating circuit is possible to control independent. There is pump and manual three-way mixing valve for settings optimal temperature in underfloor heating. The first source of heat is a heating coil. This heating coil will use for heating of heating water in the summer season (for heating of domestic hot water (DHW)), where the fireplaces will not to use. -> The heating coil is used for heating of heating water in the summer season (for heating of domestic hot water (DHW)) when the fireplaces are not used. The both source of heat are for heating of heating water in central tank (volume is 1 500 l). In the upper one third of the height of the tank is installed container for DHW (volume is 120 l).  The system controls pumps in the distributors of underfloor heating, the pumps for fireplaces with heat exchanger and drives for individual circuit of underfloor heating. If there is request for heating from a room, the pumps will be controlled. If somebody makes a fire in a fireplace, the selected pump by the fireplace will be turn on.
 
 <p align="center">
-<img src="diagrams/drawio/png/heating-system-rust-of-house.png" width="550px" alt="Heating system in the house">
+<img src="diagrams/drawio/png/heating-system-rust-of-house.png" width="550px" alt="Heating system in the house.">
 </p>
 <p align="center">
 Picture 1: Heating system in the house.
@@ -16,7 +16,7 @@ Picture 1: Heating system in the house.
 There is hardware concept in the picture 2.
 
 <p align="center">
-<img src="diagrams/drawio/png/hardware-part.png" width="550px" alt="Hardware part">
+<img src="diagrams/drawio/png/hardware-part.png" width="550px" alt="Hardware part.">
 </p>
 <p align="center">
 Picture 2: Hardware concept.
@@ -72,7 +72,7 @@ Picture 4: The Heating system in the house including control electronics.
 In the picture 5 is the cutout of part from all drawing (the picture 4) for central control unit. The central control unit is Raspberry Pi model 4b.
 
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-central-control-unit.png" width="250px" alt="Heating system in the house">
+<img src="diagrams/drawio/png/cutout-of-central-control-unit.png" width="250px" alt="The coutout from the picture 4 – the central control unit.">
 </p>
 <p align="center">
 Picture 5: The coutout from the picture 4 – the central control unit.
@@ -80,7 +80,7 @@ Picture 5: The coutout from the picture 4 – the central control unit.
 
 ### Temperature sensors
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-signalization-by-fireplace-with-temperature-sensor.png" width="250px" alt="Location of temperature sensors at fireplace">
+<img src="diagrams/drawio/png/cutout-of-signalization-by-fireplace-with-temperature-sensor.png" width="250px" alt="The cutout from thr picture 4 – location of temperature sensors by a fireplace.">
 </p>
 <p align="center">
 Picture 6: The cutout from thr picture 4 – location of temperature sensors by a fireplace.
@@ -91,7 +91,7 @@ In the picutre 6 is cutout of part from all drawing (the picture 4) for location
 In the picture 7 is cutout of part from all drawing (the picture 4) for location temperature sensor in the HWT. To obtain the temperature from the central HWT, outdoor temperature and room temperature from individual rooms is temperature sensor DS18B20 from manufacture Maxim. The temperature range is from -55 °C to +125 °C. It is used sensors in a package TO-92 for the WRTS, for the HWT and outdoor temperature. The sensor is stored in protection package.
 
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-hot-water-tank-with-temperatures-sensor.png" width="250px" alt="Location of temperature sensors in the heating water tank">
+<img src="diagrams/drawio/png/cutout-of-hot-water-tank-with-temperatures-sensor.png" width="250px" alt="The cutout from the picture 4 – location of temperature sensors in the heating water tank.">
 </p>
 <p align="center">
 Picture 7: The cutout from the picture 4 – location of temperature sensors in the heating water tank.
@@ -100,7 +100,7 @@ Picture 7: The cutout from the picture 4 – location of temperature sensors in 
 
 
 <p align="center">
-<img src="/pictures-of-final-products/others/thermocouple-72-21301041-type-k.png" width="250px" alt="Thermocouple 72-21301041 type K">
+<img src="/pictures-of-final-products/others/thermocouple-72-21301041-type-k.png" width="250px" alt="Thermocouple 72-21301041 type K.">
 </p>
 <p align="center">
 Picture 8: Thermocouple 72-21301041 type K.
@@ -110,7 +110,7 @@ Picture 8: Thermocouple 72-21301041 type K.
 The 1-Wire bus is implemented via UTP cable category 5e. 
 
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-1-wire-bus.png" width="250px" alt="Heating system in the house">
+<img src="diagrams/drawio/png/cutout-of-1-wire-bus.png" width="250px" alt="The cutout from the picture 4 – location of merge 1-Wire bus by the HWT.">
 </p>
 <p align="center">
 Picture 9: The cutout from the picture 4 – location of merge 1-Wire bus by the HWT.
@@ -119,14 +119,14 @@ Picture 9: The cutout from the picture 4 – location of merge 1-Wire bus by the
 In the picture 9 is cutout of part from all drawing (the picture 4) for merge 1-Wire bus by HWT. In the picture 10 is a PCB for temperature sensor by HWT. In the picutre 4.6b is a top part PCB which is located in an installation box. There are 6 position for fastening via a terminal block for temperature sensors. There are 3 temperature sensors connect for obtain the temperature from the top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted to cavity. The 1-Wire bus is implemented with a UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. To obtain the temperature is sensor DS18B20 in the package TO-92 which is connected on the UTP cable and covered plastic material and covered with a shrink protective tube. In the picture 11 are marked places with location of temperature sensors.
 
 <p align="center">
-<img src="/pictures-of-final-products/1-wire/hub-1-wire.jpg" width="250px" alt="The merge of 1-Wire bus by the HWT">
+<img src="/pictures-of-final-products/1-wire/hub-1-wire.jpg" width="250px" alt="The merge of 1-Wire bus by the HWT.">
 </p>
 <p align="center">
 Picture 10: The merge of 1-Wire bus by the HWT.
 </p>
 
 <p align="center">
-<img src="/pictures-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="The HWT – the red circles indicate the location of the temperature sensors">
+<img src="/pictures-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="The HWT – the red circles indicate the location of the temperature sensors.">
 </p>
 <p align="center">
 Picture 11: The HWT – the red circles indicate the location of the temperature sensors.
@@ -141,7 +141,7 @@ The power supply 5 V is implemented via a separated cable. In the one UTP is the
 
 ## Signalization by fireplace
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-signalization-by-fireplace.png" width="250px" alt="Coutout of signalization by fireplace">
+<img src="diagrams/drawio/png/cutout-of-signalization-by-fireplace.png" width="250px" alt="The cutout from the picture 4 – signalization by the fireplace.">
 </p>
 <p align="center">
 Picture 12: The cutout from the picture 4 – signalization by the fireplace.
