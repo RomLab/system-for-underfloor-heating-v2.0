@@ -112,14 +112,14 @@ Picture 9: The cutout from the picture 4 – location of merge 1-Wire bus by the
 In the picture 9 is cutout of part from all drawing (the picture 4) for merge 1-Wire bus by HWT. In the picture 10 is a PCB for temperature sensor by HWT. In the picutre 4.6b is a top part PCB which is located in an installation box. There are 6 position for fastening via a terminal block for temperature sensors. There are 3 temperature sensors connect for obtain the temperature from the top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted to cavity. The 1-Wire bus is implemented with a UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. To obtain the temperature is sensor DS18B20 in the package TO-92 which is connected on the UTP cable and covered plastic material and covered with a shrink protective tube. In the picture 11 are marked places with location of temperature sensors.
 
 <p align="center">
-<img src="/photos-of-final-products/others/sensor-installation-box-at-heating-water-tank.png" width="250px" alt="WT – the red circles indicate the location of the temperature sensors.">
+<img src="/photos-of-final-products/1-wire/hub-1-wire.jpg" width="250px" alt="The merge of 1-Wire bus by the HWT">
 </p>
 <p align="center">
 Picture 10: The merge of 1-Wire bus by the HWT.
 </p>
 
 <p align="center">
-<img src="/photos-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="Merge of 1-Wire bus at HWT.">
+<img src="/photos-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="The HWT – the red circles indicate the location of the temperature sensors">
 </p>
 <p align="center">
 Picture 11: The HWT – the red circles indicate the location of the temperature sensors.
