@@ -313,10 +313,10 @@ To obtain room temperature is the WRST. These devices primary serve to measure t
 ### Variant with Ethernet
 
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-wall-mounted-room-temperature-sensor.png" width="450px" alt="The cutout from the  picture 4 – the electric switchboard">
+<img src="diagrams/drawio/png/cutout-of-wall-mounted-room-temperature-sensor-ethernet.png" width="450px" alt="The cutout from the  picture 4 – the wall mounted room temperature sensor – Ethernet.">
 </p>
 <p align="center">
-Picture 25: The cutout from the  picture 4 – the wall mounted room temperature sensor.
+Picture 25: The cutout from the  picture 4 – the wall mounted room temperature sensor – Ethernet.
 </p>
 
 In the picture 25 is cutout of part from all drawing (the picture 4) for WRST (variant with Ethernet). In the picture 26 is a block diagram of the NSPT where it is communication via Ethernet and the end devices are powered by POE. The device is powered from PSE (Power Sourcing Equipment) - POE switch MaxLink PSAT-10-8P-250, the WRST is PD (Powered Device). This PSE and PD devices support standart 802.3af respectively 802.3at. The devices PD are set for the lowest power class 1 (max. power PSE for PD devices is 4 W). For transmission is used Phantom voltage. Input voltage from PSE (44-57 V depending on the length of the UTP cable and lossed) passes through a diode rectifier. There is control circuit TPS23753A which provides communication/interface for correct settings and enable voltage from the PSE. It alose provides control of the conversion of input voltage to output voltage 5 V (DC-DC converter). It is connected in the Flyback topology. The feedback is solved using optical feedback with an adjustable Zener diode TLV431A in the comparator connection.
@@ -347,4 +347,27 @@ Picture 26: The block diagram of wall-mounted room temperature sensor – Ethern
 </p>
 <p align="center">
 Picture 27: The realized PCB of the wall mounted room temperature sensor – Ethernet. The PCB bottom part. The PCB top part. The PCB top part with display.
+</p>
+
+### Variant with WiFi
+
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-wall-mounted-room-temperature-sensor-wifi.png" width="450px" alt="The cutout from the  picture 4 – the wall mounted room temperature sensor – WiFi.">
+</p>
+<p align="center">
+Picture 28: The cutout from the  picture 4 – the wall mounted room temperature sensor – WiFi.
+</p>
+
+In the picture 28 is cutout of part from all drawing (the picture 4) for WRST (variant with WiFi). In the picture 29 is a block diagram of the WRST communicates via WiFi and powered by a power adapter (Mean Well GSM06E05-P1J). This variant does not have power supply by POE and the circuit W5500 with implementing Ethernet communication as the variant above.
+
+In the picture 29 is the top part realized PCB for the WRST with WiFi. In the picture 29 is the bottom part realized PCB. In the picture 29 is PCB with the display. 
+
+
+<p align="center">
+<img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/wifi/pcb-bottom.png" width="465px" alt="The PCB bottom part.">
+<img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/wifi/pcb-top.png" width="450px" alt="The PCB top part.">
+<img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/wifi/pcb-top-with-display.png" width="450px" alt="The PCB top part with display."> <br>
+</p>
+<p align="center">
+Picture 29: The realized PCB of the wall mounted room temperature sensor – WiFi. The PCB bottom part. The PCB top part. The PCB top part with display.
 </p>
