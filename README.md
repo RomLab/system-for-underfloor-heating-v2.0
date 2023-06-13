@@ -393,3 +393,14 @@ In the picture 30 is the top part realized PCB for the WRST with WiFi. In the pi
 <p align="center">
 Picture 30: The realized PCB of the wall mounted room temperature sensor – WiFi. The PCB bottom part. The PCB top part. The PCB top part with display.
 </p>
+
+---
+ [More pictures](pictures-of-final-products/wall-mounted-room-temperature-sensor)
+
+---
+**PCB and 3D models:**
+
+* [Ethernet – PCB in KiCAD, Gerber data, …](https://github.com/RomLab/pcb-system-for-underfloor-heating-v2.0/tree/main/wall-mounted-room-temperature%20sensor-ethernet)
+* [Wifi – PCB in KiCAD, Gerber data, …](https://github.com/RomLab/pcb-system-for-underfloor-heating-v2.0/tree/main/wall-mounted-room-temperature%20sensor-wifi)
+* [3D models of box in FreCAD, STEP files, GCODE for Prusa's printer, …](https://github.com/RomLab/3d-model-system-for-underfloor-heating-v2.0/tree/main/wall-mounted-room-temperature-sensor)
+---
