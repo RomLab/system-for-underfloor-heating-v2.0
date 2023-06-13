@@ -243,7 +243,6 @@ Picture 18: The realized PCB of the zone controller. The bottom part of PCB and 
 </p>
 <p align="center">
 Picture 19: The panel with the top PCB. The top of part panel. The panel with the bottom shield. The front side of the panel with the shield. The right side of the panel with the shield.
-
 </p>
 
 ### Thermoelectric drives Salus T30NC
@@ -298,4 +297,54 @@ The power supply 24 V (S8VK-C12024) for power supply the zone controllers (therm
 </p>
 <p align="center">
 Picture 23: The cutout from picture 4 – the electric switchboard.
+</p>
+
+<p align="center">
+<img src="XXX" width="450px" alt="XXX">
+</p>
+<p align="center">
+Picture 24: XXX
+</p>
+
+## Wall-mounted room temperature sensor
+
+To obtain room temperature is the WRST. These devices primary serve to measure temperature a its sending into the central control unit. There are buttons for settings required temperature (step change is 0.5 °C) for a selected room. On a display is showing currently measuredly and requiredly temperature. If somebody does changes in central system, this changes will does in the WRST. The WRST measures temperature in the room every 30 seconds. If the WRST disconnects from network connection, the device will do reconnection. This network failure is displayed in the central control unit. The first option of communication with the central control unit is via Ethernet and the end devices are powered by POE. The second option of communication with the central control unit is via WiFi and the end devices are powered by a power adapter. In the house are 6 devices with Ethernet and 5 devices with WiFi.
+
+### Variant with Ethernet
+
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-wall-mounted-room-temperature-sensor.png" width="450px" alt="The cutout from the  picture 4 – the electric switchboard">
+</p>
+<p align="center">
+Picture 25: The cutout from the  picture 4 – the wall mounted room temperature sensor.
+</p>
+
+In the picture 25 is cutout of part from all drawing (the picture 4) for WRST (variant with Ethernet). In the picture 26 is a block diagram of the NSPT where it is communication via Ethernet and the end devices are powered by POE. The device is powered from PSE (Power Sourcing Equipment) - POE switch MaxLink PSAT-10-8P-250, the WRST is PD (Powered Device). This PSE and PD devices support standart 802.3af respectively 802.3at. The devices PD are set for the lowest power class 1 (max. power PSE for PD devices is 4 W). For transmission is used Phantom voltage. Input voltage from PSE (44-57 V depending on the length of the UTP cable and lossed) passes through a diode rectifier. There is control circuit TPS23753A which provides communication/interface for correct settings and enable voltage from the PSE. It alose provides control of the conversion of input voltage to output voltage 5 V (DC-DC converter). It is connected in the Flyback topology. The feedback is solved using optical feedback with an adjustable Zener diode TLV431A in the comparator connection.
+
+The device in operation is primarily powered by 5 V, in the case of programming the device, it is possible to use a programming connector with a power pin for 5 V. If POE is available, power from the programming connector will be blocked (using a P-channel MOSFET). The 5 V voltage is conducted to two LDO (Low-dropout regulator) regulators. The one LDO serves only to power the ESP-32-WROVER-IE (M213EH2864UH3Q0) module, the second LDO is to power the remaining peripherals (display, buttons, temperature sensor, circuit for the physical layer of Ethernet W5500).
+
+For programming the module, there is a connector for connecting an external module, where there are pins for the TX/RX signal from the UART and signals for automatic reset and boot of the module, and pins for the 5 V power supply and ground.In addition, there are buttons for boot and reset of the ESP32 module located directly on the PCB, without depending on the connection of the programming module (so other modules that do not have automatic reset and boot can also be programmed).
+
+The device has protective transils on the connectors and parts which are in direct contact with the user. The circuit for POE has also current and temperature protection. The LDO regulators have low input voltage detection for successful start-up, thermal fuse and protection when the output voltage increases compared to the input voltage. 
+
+There is a color TFT display of size 2.2" (240×320 pixels) with an ILI9341 controller for displaying the current and required temperature. The display is connected to the ESP32 module using the SPI bus. The display has the option of controlling the backlight using PWM. The W5500 circuit is used for the physical layer which implements an Ethernet controller with integrated TCP/IP. The circuit is connected to the ESP32 module using the SPI bus. To obtain room temperature is used temperature sensor DS18B20. There are three buttons for settings the required temperature and showing the menu.
+
+The ESP32 module has an RMII (Reduced Media-Independent Interface) interface which has a more complex software implementation and uses a larger number of pins. Therefore, the integrated circuit W5500 is chosen. Two independent SPI buses are used for communication. The one is between the ESP32 module and the W5500. The second is between the ESP32 module and the display.
+
+In the picture 27 is the top part of the realized PCB for the WRST, the bottom part of PCB and the PCB with display. 
+
+<p align="center">
+<img src="diagrams/drawio/png/block-diagram-of-wall-mounted-room-temperature-sensor-ethernet.png" width="550px" alt="The cutout from the picture 4 – the block diagram of wall-mounted room temperature sensor – Ethernet">
+</p>
+<p align="center">
+Picture 26: The block diagram of wall-mounted room temperature sensor – Ethernet.
+</p>
+
+<p align="center">
+<img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/ethernet/pcb-bottom.png" width="465px" alt="The PCB bottom part.">
+<img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/ethernet/pcb-top.png" width="450px" alt="The PCB top part.">
+<img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/ethernet/pcb-top-with-display.png" width="450px" alt="The PCB top part with display."> <br>
+</p>
+<p align="center">
+Picture 27: The realized PCB of the wall mounted room temperature sensor – Ethernet. The PCB bottom part. The PCB top part. The PCB top part with display.
 </p>
