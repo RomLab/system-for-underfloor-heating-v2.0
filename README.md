@@ -414,3 +414,15 @@ Picture 31: The Box for the wall-mounted room temperature sensor.
 * [Wifi – PCB in KiCAD, Gerber data, …](https://github.com/RomLab/pcb-system-for-underfloor-heating-v2.0/tree/main/wall-mounted-room-temperature%20sensor-wifi)
 * [3D models of box in FreCAD, STEP files, GCODE for Prusa's printer, …](https://github.com/RomLab/3d-model-system-for-underfloor-heating-v2.0/tree/main/wall-mounted-room-temperature-sensor)
 ---
+
+## Converter USB-UART CP2102N
+
+For programming the WRST, modul ESP32 Wrover-IE is used converter USB-UART CP2102N. It is used a module CP2102N MINEK (the picture 32). The module is supplemented with a transistor connection for automatic reset and automatic boot of the module (the picture 32). The DTR (Data Terminal Ready) and RTS (Request To Send) signals are used from the module. If it needs to enter the bootloader to upload new firmware, it is necessary to hold boot and then press reset, the device is thus ready to upload new firmware. From the module are brought out to a connector 5 V, GND, RXD, TXD, EN and IO0. Communication between the CP2102N and the ESP32 is via the RXD and TXD wires.
+
+<p align="center">
+<img src="pictures-of-final-products/converter-usb-uart-cp2102n/converter-usb-uart-cp2102n-bottom.png" width="250px" alt="The PCB bottom part.">
+<img src="pictures-of-final-products/converter-usb-uart-cp2102n/converter-usb-uart-cp2102n-top.png" width="250" alt="The PCB top part.">
+</p>
+<p align="center">
+Picture 32: The converter USB-UART CP2102N. The bottom part of converter. The top part of converter. 
+</p>
