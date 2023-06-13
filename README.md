@@ -394,6 +394,16 @@ In the picture 30 is the top part realized PCB for the WRST with WiFi. In the pi
 Picture 30: The realized PCB of the wall mounted room temperature sensor – WiFi. The PCB bottom part. The PCB top part. The PCB top part with display.
 </p>
 
+#### Box for the wall-mounted room temperature sensor
+The box for the WRST is printed on the 3D printer Prusa i3 MK3s (the picture 31). The plastic is used PET-G. The box has size 130 × 99 × 26 mm. The box for both the version with Ethernet and for WiFi is the same, it differs only in the connector for RJ45 and the DC connector for the adapter.
+
+<p align="center">
+<img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/wall-mounted-room-temperature-sensor-with-case.png" width="450px" alt="The Box for the wall-mounted room temperature sensor.">
+</p>
+<p align="center">
+Picture 31: The Box for the wall-mounted room temperature sensor.
+</p>
+
 ---
  [More pictures](pictures-of-final-products/wall-mounted-room-temperature-sensor)
 
