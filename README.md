@@ -294,7 +294,7 @@ In the picture 23 is cutout of part from all drawing (the picture 4) for electri
 The power supply 24 V (S8VK-C12024) for power supply the zone controllers (thermoelectric drives). There are circuit breakers for pumps and power supply.
 
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-electric-switchboard.png" width="250px" alt="The cutout from picture 4 – the electric switchboard">
+<img src="diagrams/drawio/png/cutout-of-electric-switchboard.png" width="450px" alt="The cutout from picture 4 – the electric switchboard">
 </p>
 <p align="center">
 Picture 23: The cutout from picture 4 – the electric switchboard.
