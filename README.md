@@ -287,3 +287,15 @@ Picture 22: The cutout from picture 4 – SSR relays.
 </p>
 
 In the picture 22 is cutout of part from all drawing (the picture 4) for SSR relays. For switching pumps by fireplaces and in the distributor of the heating circuits are used SSR relay ASR-M05DA-1 (input volatege 5–32 V DC, output voltage 24–280 V AC, max. output current 5 A, zero-cross), more info at https://www.anly.com.tw/en/productDia.php?id=146. For switching of the heating coil (6 kW, star connection) is used SSR relay SRH3-1430 (input volatege 4–30 V DC, output voltage 48–280 V AC, max. output current 30 A, zero-cross), more info at https://www.autonicsonline.com/product/product&product_id=13943&tag=SRH3-1430.
+
+## Electric switchboard with the central control unit
+
+In the picture 23 is cutout of part from all drawing (the picture 4) for electric switchboard with the central control unit. In the electric switchboard are located 5 V supply voltage (MDR-60-5) for power supply the central control unit, the signilization by the fireplaces and zone controllers. The next supply voltage is 12 V (HDR-30-12) for power supply the corridor thermostats and fans inside electric switchboard. 
+The power supply 24 V (S8VK-C12024) for power supply the zone controllers (thermoelectric drives). There are circuit breakers for pumps and power supply.
+
+<p align="center">
+<img src="diagrams/drawio/png/cutout-of-electric-switchboard.png" width="250px" alt="The cutout from picture 4 – the electric switchboard">
+</p>
+<p align="center">
+Picture 23: The cutout from picture 4 – the electric switchboard.
+</p>
