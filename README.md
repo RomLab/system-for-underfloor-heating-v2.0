@@ -300,10 +300,10 @@ Picture 23: The cutout from picture 4 – the electric switchboard.
 </p>
 
 <p align="center">
-<img src="XXX" width="450px" alt="XXX">
+<img src="pictures-of-final-products/electric-switchboard/electric-switchboard-with-case-of-central-control-unit.jpg" width="450px" alt="The final electric switchboard">
 </p>
 <p align="center">
-Picture 24: XXX
+Picture 24: The final electric switchboard.
 </p>
 
 ## Wall-mounted room temperature sensor
