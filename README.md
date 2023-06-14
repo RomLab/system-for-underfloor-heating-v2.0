@@ -426,3 +426,134 @@ For programming the WRST, modul ESP32 Wrover-IE is used converter USB-UART CP210
 <p align="center">
 Picture 32: The converter USB-UART CP2102N. The bottom part of converter. The top part of converter. 
 </p>
+
+## Software part
+
+### Wall-mounted room temperature sensor
+
+The WRST still checks that it is connected to network (it is connected cable or it is available WiFi). If it is not connected, it tries to reconnect. The connection status is indicated to the user by an icon in the left corner (green color of the icon for a successful connection status, red color indicates a connection problem). The device checks the connection to the MQTT broker (Mosquitto broker), similarly to the network connection, the device tries to restore the connection automatically. The status is again signaled using the icon in the left corner. The current measured temperature is shown in red on the display (measured every 30 seconds), the required temperature is shown in green. The user can increment the temperature by +0.5 °C with the right button, the left button decrements it by -0.5 °C. The middle button has not implemented function yet. It will be for next settings for example hysteresis. The last line with white text is used to display a message to the user. Currently it displayed request for flooding in a fireplace. The individual parts described above are showed in the picture 33.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 33: XXX. 
+</p>
+
+### Home Assistant - Types of heating control
+Within the control system, there are the following control types:
+- Heating control according to corridor thermostats.
+- Heating control according to wall room temperature sensors.
+- Heating control according to temperature plans.
+
+It is assumed that the central the HWT is continuously heated during a day using excess energy through heat exchangers. The central HWT is reheated for any heating needs. Priority is given to obtaining heated heating water from the heat source mentioned earlier. Users are alerted by signals on the displays both at the fireplaces (the picture 16) and at the WRST (the picture 33). Directly in the control system (notifications to the mobile phone (the picture 34), e-mail are also possible) or by LEDs (lighting of all) by fireplaces, there is a need to flood the fireplaces, if the system evaluates that there is a need for heating. If this does not happen, the heating coil is used, which reheats the HWT (it can be controlled automatically). 
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 34: XXX. 
+</p>
+
+In the picture 35 is interface Home Assistatn for settings of heating. In the left menu  are individual floors with thermostats and temperature schedules (described below). In the records tab, history are saved to a database individual states of the control elements and the history of the data itself, especially of the temperature sensors. There are also settings for the user profile and the entire system. In the top menu are other tabs for heating settings, also described below in the text.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 35: XXX. 
+</p>
+
+In the overview tab (the picture 36) are displayed current temperatures which are used for evaluation in the system Home Assistant. In the section "individual temperatures" are all temperatures measured in the HWT, temperatures on flues in the ground and first floor and outdoor temperature. In the section "temperature comparison" are mentioned temperatures displayed in the one graph.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 36: XXX. 
+</p>
+
+In the settings tab (the picture 37) is possible to select one type of heating control in the "temperature control" section. In the "control modes" is selection of modes - winter, summer or selection according to outdoor temperature. The choice of mode has affect on selection limit temperatures for switching the heating coil. Temperature limits can be set in the section "switching of heating coil" (temperature limits for summer and winter). These set limits are used for control with the temperature in the upper part of the HWT.
+
+If temperature in the top part of the HWT is lower than temperature defined in the part "min. turn on", the heating coil will be switched on to heat the heating water. The boiler switches off at the temperature defined in the "max. turn off". When comparing temperatures is used hysteresis in the section "other settings". In the mode according to outdoor temperature is selected automatic the summer or winter mode. The temperature limit for selection of the summer mode (within the mode according to the outdoor temperature) is defined in the section "min. outdoor temperature for the summer mode". If after warning of users, it won't be flooding in the boiler. The boiler will automatically turn on.
+
+In the section of settings "fireplaces - switching of pump" is defined min. temperature limit when the circulation pumps for heat exchangers of fireplaces are switched on. In case of flooding in the fireplace, the pumps must be started, otherwise water in the heat exchanger will overheat. If overheating occurs, the protection is activated by the fireplaces and an audible alarm will sound.
+
+In the section "LED indication - limit parameters of the heating water tank" are defined the limit temperatures for the top, middle and bottom part of the HWT. This indication is for users for signalization of heating of the HWT. The blue LED defines the limit minimum temperature that the tank should have in the top part. The orange LED defines the limit maximum temperature when the middle part of the HWT is enough heating. The red LED defines maximum temperature when the bottom part of the HWT is fully heating. Activation of the red LED is before activating of protection of fireplace.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 37: XXX. 
+</p>
+
+In the device tab (the picture 38) is showing individual control (turn on/turn off) devices of heasting system - the heating coil, pumps for fireplaces, pumps for underfloor heating and signalization LEDs. The switch "manual device control" is for individual control of devices regardless of the automation.
+
+In the section "corridor thermostats - required heating" is showing of heating in the ground or first floor according to corridor thermostats.
+
+In the section "floor/ground floor - heating circuits (valves)" is showing on status of each valve.
+
+In other tab in the part "control of pumps - limescale"  (the picture 39) is used to switch pumps for protection before stiffening shoulder blades. If the pumps are not used for long time, the vanes will become stiff.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 38: XXX. 
+</p>
+
+### Heating control according to corridor thermostats
+
+In the ground and first floor are corridor thermostats. This thermostat controls independent on settings in the central control unit turn on/turn off a output relay when it is need to heating. This request is subsequently evaluated in the central system and then the  pump for underfloor heating is turned on or turned off and all underfloor heating circuits are opened. All rooms are heated same according to one thermostat.
+
+### Heating control according to wall room temperature sensors
+
+According to current temperature measured from each rooms is controlled given heating circuit for heating. The required temperature is possible to set on the WRST or in the system (the picture 39). The changes are reflected in each other. Room heating control is given by a hysteresis of 0.5 °C. The heating control responds to the current measured temperature.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 39: XXX. 
+</p>
+
+Local thermostats are sorted to groups according to given floor (the ground floor or the first floor), the picture 40.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 40: XXX. 
+</p>
+
+Each the thermostat has indication of network connection to the central control unit. Verification takes based on sending the current time. There is detection of open window in a room.
+
+### Heating control according to temperature plans
+
+The heating control according to defined schedules. The user has the option to define time periods with required temperature for each room for all 24 hours. The time schedules set are continuously checked by the system and the system sets the currently required temperature to local WRSTs. This temperature is showed in HA thermostat. The interface for settings of intervals is in the picture 41. The user can add individual interval or remove it. The user can choose whether intervals are applied to all days of the week or just working days, the weekend or selection of specific days of the week. It is possible to define whether the given section should be heated or not.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 41: XXX. 
+</p>
+
+For each room is possible to define individual count of intervals. The overview of individual plans is displayed under each day, the picture 42. 
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 42: XXX. 
+</p>
+
+????
+Individual plans can also be paused using the slider button on the right. The general overview of the temperature plans of all rooms for the ground floor is possible to see in the picture 43., similar overview is for the first room, the picture 43.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 42: XXX. 
+</p>
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 43: XXX. 
+ 
+### Recharging of domestic hot water
+ 
+Recharging of the (domestic hot water) is similar as heating according to temperature plans. There is one temperature plan recharging for DHW. There is comparison required temperature with the current temperature in the top part of the HWT. If temperature is low, the system will alert users to flood the fireplace. If they do not do so within a certain time, the heating coil will automatically turn on and heat the top part of the HWT.
+</p>
