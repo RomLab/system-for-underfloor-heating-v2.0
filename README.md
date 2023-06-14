@@ -562,6 +562,6 @@ Recharging of the (domestic hot water) is similar as heating according to temper
 ---
 **Software + settings:**
 
-* [Software (scripts) Home Assistant + AppDaemon](https://github.com/RomLab/home-assistant-for-underfloor-heating-v2.0)
+* [Software (scripts) Home Assistant + AppDaemon](https://github.com/RomLab/home-assistant-for-underfloor-heating-docker-v2.0)
 * [Software for the wall-mounted room temperature sensors](https://github.com/RomLab/esp32-local-thermostat)
 ---
