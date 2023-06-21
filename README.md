@@ -387,8 +387,14 @@ Picture 29: The cutout from the  picture 4 – the wall mounted room temperature
 
 In the picture 29 is cutout of part from all drawing (the picture 4) for WRST (variant with WiFi). In the picture 30 is a block diagram of the WRST communicates via WiFi and powered by a power adapter (Mean Well GSM06E05-P1J). This variant does not have power supply by POE and the circuit W5500 with implementing Ethernet communication as the variant above.
 
-In the picture 30 is the top part realized PCB for the WRST with WiFi. In the picture 30 is the bottom part realized PCB. In the picture 30 is PCB with the display. 
+In the picture 31 is the top part realized PCB for the WRST with WiFi. In the picture 30 is the bottom part realized PCB. In the picture 30 is PCB with the display. 
 
+<p align="center">
+<img src="diagrams/drawio/png/block-diagram-of-wall-mounted-room-temperature-sensor-wifi.png" width="550px" alt="The cutout from the picture 4 – the block diagram of wall-mounted room temperature sensor – WiFi">
+</p>
+<p align="center">
+Picture 30: The block diagram of wall-mounted room temperature sensor – WiFi.
+</p>
 
 <p align="center">
 <img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/wifi/pcb-bottom.png" width="465px" alt="The PCB bottom part.">
@@ -396,17 +402,17 @@ In the picture 30 is the top part realized PCB for the WRST with WiFi. In the pi
 <img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/wifi/pcb-top-with-display.png" width="450px" alt="The PCB top part with display."> <br>
 </p>
 <p align="center">
-Picture 30: The realized PCB of the wall mounted room temperature sensor – WiFi. The PCB bottom part. The PCB top part. The PCB top part with display.
+Picture 31: The realized PCB of the wall mounted room temperature sensor – WiFi. The PCB bottom part. The PCB top part. The PCB top part with display.
 </p>
 
 #### Box for the wall-mounted room temperature sensor
-The box for the WRST is printed on the 3D printer Prusa i3 MK3s (the picture 31). The plastic is used PET-G. The box has size 130 × 99 × 26 mm. The box for both the version with Ethernet and for WiFi is the same, it differs only in the connector for RJ45 and the DC connector for the adapter.
+The box for the WRST is printed on the 3D printer Prusa i3 MK3s (the picture 32). The plastic is used PET-G. The box has size 130 × 99 × 26 mm. The box for both the version with Ethernet and for WiFi is the same, it differs only in the connector for RJ45 and the DC connector for the adapter.
 
 <p align="center">
 <img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/wall-mounted-room-temperature-sensor-with-case.png" width="450px" alt="The Box for the wall-mounted room temperature sensor.">
 </p>
 <p align="center">
-Picture 31: The Box for the wall-mounted room temperature sensor.
+Picture 32: The Box for the wall-mounted room temperature sensor.
 </p>
 
 ---
@@ -422,26 +428,26 @@ Picture 31: The Box for the wall-mounted room temperature sensor.
 
 ## Converter USB-UART CP2102N
 
-For programming the WRST, modul ESP32 Wrover-IE is used converter USB-UART CP2102N. It is used a module CP2102N MINEK (the picture 32). The module is supplemented with a transistor connection for automatic reset and automatic boot of the module (the picture 32). The DTR (Data Terminal Ready) and RTS (Request To Send) signals are used from the module. If it needs to enter the bootloader to upload new firmware, it is necessary to hold boot and then press reset, the device is thus ready to upload new firmware. From the module are brought out to a connector 5 V, GND, RXD, TXD, EN and IO0. Communication between the CP2102N and the ESP32 is via the RXD and TXD wires.
+For programming the WRST, modul ESP32 Wrover-IE is used converter USB-UART CP2102N. It is used a module CP2102N MINEK (the picture 33). The module is supplemented with a transistor connection for automatic reset and automatic boot of the module (the picture 33). The DTR (Data Terminal Ready) and RTS (Request To Send) signals are used from the module. If it needs to enter the bootloader to upload new firmware, it is necessary to hold boot and then press reset, the device is thus ready to upload new firmware. From the module are brought out to a connector 5 V, GND, RXD, TXD, EN and IO0. Communication between the CP2102N and the ESP32 is via the RXD and TXD wires.
 
 <p align="center">
 <img src="pictures-of-final-products/converter-usb-uart-cp2102n/converter-usb-uart-cp2102n-bottom.png" width="250px" alt="The PCB bottom part.">
 <img src="pictures-of-final-products/converter-usb-uart-cp2102n/converter-usb-uart-cp2102n-top.png" width="250" alt="The PCB top part.">
 </p>
 <p align="center">
-Picture 32: The converter USB-UART CP2102N. The bottom part of converter. The top part of converter. 
+Picture 33: The converter USB-UART CP2102N. The bottom part of converter. The top part of converter. 
 </p>
 
 ## Software part
 
 ### Wall-mounted room temperature sensor
 
-The WRST still checks that it is connected to network (it is connected cable or it is available WiFi). If it is not connected, it tries to reconnect. The connection status is indicated to the user by an icon in the left corner (green color of the icon for a successful connection status, red color indicates a connection problem). The device checks the connection to the MQTT broker (Mosquitto broker), similarly to the network connection, the device tries to restore the connection automatically. The status is again signaled using the icon in the left corner. The current measured temperature is shown in red on the display (measured every 30 seconds), the required temperature is shown in green. The user can increment the temperature by +0.5 °C with the right button, the left button decrements it by -0.5 °C. The middle button has not implemented function yet. It will be for next settings for example hysteresis. The last line with white text is used to display a message to the user. Currently it displayed request for flooding in a fireplace. The individual parts described above are showed in the picture 33.
+The WRST still checks that it is connected to network (it is connected cable or it is available WiFi). If it is not connected, it tries to reconnect. The connection status is indicated to the user by an icon in the left corner (green color of the icon for a successful connection status, red color indicates a connection problem). The device checks the connection to the MQTT broker (Mosquitto broker), similarly to the network connection, the device tries to restore the connection automatically. The status is again signaled using the icon in the left corner. The current measured temperature is shown in red on the display (measured every 30 seconds), the required temperature is shown in green. The user can increment the temperature by +0.5 °C with the right button, the left button decrements it by -0.5 °C. The middle button has not implemented function yet. It will be for next settings for example hysteresis. The last line with white text is used to display a message to the user. Currently it displayed request for flooding in a fireplace. The individual parts described above are showed in the picture 34.
 
 <p align="center">
 <img src="XXX" width="250px" alt="XXX">
 <p align="center">
-Picture 33: XXX. 
+Picture 34: XXX. 
 </p>
 
 ### Home Assistant - Types of heating control
@@ -450,15 +456,7 @@ Within the control system, there are the following control types:
 - Heating control according to wall room temperature sensors.
 - Heating control according to temperature plans.
 
-It is assumed that the central the HWT is continuously heated during a day using excess energy through heat exchangers. The central HWT is reheated for any heating needs. Priority is given to obtaining heated heating water from the heat source mentioned earlier. Users are alerted by signals on the displays both at the fireplaces (the picture 16) and at the WRST (the picture 33). Directly in the control system (notifications to the mobile phone (the picture 34), e-mail are also possible) or by LEDs (lighting of all) by fireplaces, there is a need to flood the fireplaces, if the system evaluates that there is a need for heating. If this does not happen, the heating coil is used, which reheats the HWT (it can be controlled automatically). 
-
-<p align="center">
-<img src="XXX" width="250px" alt="XXX">
-<p align="center">
-Picture 34: XXX. 
-</p>
-
-In the picture 35 is interface Home Assistatn for settings of heating. In the left menu  are individual floors with thermostats and temperature schedules (described below). In the records tab, history are saved to a database individual states of the control elements and the history of the data itself, especially of the temperature sensors. There are also settings for the user profile and the entire system. In the top menu are other tabs for heating settings, also described below in the text.
+It is assumed that the central the HWT is continuously heated during a day using excess energy through heat exchangers. The central HWT is reheated for any heating needs. Priority is given to obtaining heated heating water from the heat source mentioned earlier. Users are alerted by signals on the displays both at the fireplaces (the picture 16) and at the WRST (the picture 35). Directly in the control system (notifications to the mobile phone (the picture 35), e-mail are also possible) or by LEDs (lighting of all) by fireplaces, there is a need to flood the fireplaces, if the system evaluates that there is a need for heating. If this does not happen, the heating coil is used, which reheats the HWT (it can be controlled automatically). 
 
 <p align="center">
 <img src="XXX" width="250px" alt="XXX">
@@ -466,12 +464,20 @@ In the picture 35 is interface Home Assistatn for settings of heating. In the le
 Picture 35: XXX. 
 </p>
 
-In the overview tab (the picture 36) are displayed current temperatures which are used for evaluation in the system Home Assistant. In the section "individual temperatures" are all temperatures measured in the HWT, temperatures on flues in the ground and first floor and outdoor temperature. In the section "temperature comparison" are mentioned temperatures displayed in the one graph.
+In the picture 36 is interface Home Assistatn for settings of heating. In the left menu  are individual floors with thermostats and temperature schedules (described below). In the records tab, history are saved to a database individual states of the control elements and the history of the data itself, especially of the temperature sensors. There are also settings for the user profile and the entire system. In the top menu are other tabs for heating settings, also described below in the text.
 
 <p align="center">
 <img src="XXX" width="250px" alt="XXX">
 <p align="center">
 Picture 36: XXX. 
+</p>
+
+In the overview tab (the picture 37) are displayed current temperatures which are used for evaluation in the system Home Assistant. In the section "individual temperatures" are all temperatures measured in the HWT, temperatures on flues in the ground and first floor and outdoor temperature. In the section "temperature comparison" are mentioned temperatures displayed in the one graph.
+
+<p align="center">
+<img src="XXX" width="250px" alt="XXX">
+<p align="center">
+Picture 37: XXX. 
 </p>
 
 In the settings tab (the picture 37) is possible to select one type of heating control in the "temperature control" section. In the "control modes" is selection of modes - winter, summer or selection according to outdoor temperature. The choice of mode has affect on selection limit temperatures for switching the heating coil. Temperature limits can be set in the section "switching of heating coil" (temperature limits for summer and winter). These set limits are used for control with the temperature in the upper part of the HWT.
