@@ -182,7 +182,9 @@ Zde je možné nastavit +12 V nebo +24 V pro externí připojené zařízení (S
 \begin{Czech}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.3\textwidth]{pictures/all/hardware/pin-header-relays.png}
+    \def\svgwidth{0.25\columnwidth}
+    \graphicspath{{pictures/all/hardware/svg/}}
+    \input{pictures/all/hardware/svg/pin-header-relays.pdf_tex}
     \caption{Výběr napětí pro výstupy - SSR relé a jiné. Podobné značení je i na desce plošných spojů.}
     \label{fig:pin-header-relays}
 \end{figure}
@@ -241,13 +243,15 @@ Pro tyto dva konektory není k dispozici 1-Wire sběrnice. Pouze diferenciální
 \end{Czech}
 
 \begin{Czech}
-Zde je možné nastavit +5 V\_A nebo +5 V\_B pro externí připojené zařízení. Napětí +5 \_A je pro stejný potenciál externího zařízení jako centrální jednotka. Napětí +5 V\_B je galvanicky oddělené. Volba se dělá pomocí propojek, obrázek \ref{fig:pin-header-relays}. Je potřeba mít stejné propojku pro napětí tak i zem.
+Zde je možné nastavit +5 V\_A nebo +5 V\_B pro externí připojené zařízení. Napětí +5 V\_A je pro stejný potenciál externího zařízení jako centrální jednotka. Napětí +5 V\_B je galvanicky oddělené. Volba se dělá pomocí propojek, obrázek \ref{fig:pin-header-relays}. Je potřeba mít stejné propojku pro napětí tak i zem.
 \end{Czech}
 
 \begin{Czech}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.3\textwidth]{pictures/all/hardware/pin-header-external-states.png}
+    \def\svgwidth{0.25\columnwidth}
+    \graphicspath{{pictures/all/hardware/svg/}}
+    \input{pictures/all/hardware/svg/pin-header-external-states.pdf_tex}
     \caption{Výběr napětí pro výstupy - externí stavy. Podobné značení je i na desce plošných spojů.}
     \label{fig:pin-header-external-states}
 \end{figure}
@@ -272,7 +276,9 @@ Na prostřední pin konektoru 11 respektive 12 je připojen externí stav pro ov
 \begin{Czech}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.15\textwidth]{pictures/all/hardware/terminal-block-external-states.png}
+    \def\svgwidth{0.15\columnwidth}
+    \graphicspath{{pictures/all/hardware/svg/}}
+    \input{pictures/all/hardware/svg/terminal-block-external-states.pdf_tex}
     \caption{Zapojení externího zařízení na svorkovnici pro externí stavy. Obdobné značení je i na desce plošných spojů.}
     \label{fig:terminal-block-external-state}
 \end{figure}
@@ -308,16 +314,22 @@ Konektory RJ1 až RJ10 slouží pro připojení zařízení využívající 1-Wi
 \end{Czech}
 
 \begin{Czech}
-Konektory pro připojení +5 V, +12 V, +24 V, +5 V. Zapojení napájení do konektoru je na obrázku \ref{fig:central-control-unit-terminal-blocks-power-supply}. Orientace konektoru na obrázku \ref{fig:central-control-unit-terminal-blocks-power-supply} je shodná s orientací na \ref{fig:central-control-unit-pcb-top}.
+Konektory pro připojení +5 V, +12 V, +24 V, +5 V. Maximální dovolené napětí je napsáno na DPS. Zapojení napájení do konektoru je na obrázku \ref{fig:central-control-unit-terminal-blocks-power-supply}. Orientace konektoru na obrázku \ref{fig:central-control-unit-terminal-blocks-power-supply} je shodná s orientací na \ref{fig:central-control-unit-pcb-top}.
 \end{Czech}
 
 \begin{Czech}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.15\textwidth]{pictures/all/hardware/central-control-unit-terminal-blocks-power-supply.png}
-    \caption{Konektor pro připojení napájecích napětí.  Obdobné značení je i na desce plošných spojů.}
+    \def\svgwidth{0.15\columnwidth}
+    \graphicspath{{pictures/all/hardware/svg/}}
+    \input{pictures/all/hardware/svg/central-control-unit-terminal-blocks-power-supply.pdf_tex}
+    \caption{Konektor pro připojení napájecích napětí. Maximální dovolené napětí je napsáno na DPS. Obdobné značení je i na desce plošných spojů.}
     \label{fig:central-control-unit-terminal-blocks-power-supply}
 \end{figure}
+\end{Czech}
+
+\begin{Czech}
+\tipbox{Pozor}{Maximální dovolené napětí je napsáno na DPS.}
 \end{Czech}
 
 \begin{Czech}
@@ -331,7 +343,9 @@ Konektory pro připojení externích zařízení (SSR relé a jiné).  Zapojení
 \begin{Czech}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.15\textwidth]{pictures/all/hardware/central-control-unit-terminal-block-relays.png}
+    \def\svgwidth{0.15\columnwidth}
+    \graphicspath{{pictures/all/hardware/svg/}}
+    \input{pictures/all/hardware/svg/central-control-unit-terminal-block-relays.pdf_tex}
     \caption{Konektor pro připojení externích zařízení (SSR relé a jiné). Obdobné značení je i na desce plošných spojů.}
     \label{fig:central-control-unit-terminal-block-relays}
 \end{figure}
@@ -508,7 +522,9 @@ Konektory pro připojení termoelektrický ventilů na +24 V. Připojení polari
 \begin{Czech}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.15\textwidth]{pictures/all/hardware/zone-controller-terminal-block.png}
+    \def\svgwidth{0.15\columnwidth}
+    \graphicspath{{pictures/all/hardware/svg/}}
+    \input{pictures/all/hardware/svg/zone-controller-terminal-block.pdf_tex}
     \caption{Konektor pro připojení termoelektrického pohonu. Obdobné značení je i na desce plošných spojů.}
     \label{fig:zone-controller-terminal-block}
 \end{figure}
