@@ -1,0 +1,98 @@
+<mxfile host="Electron" modified="2023-06-14T21:07:03.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="vLT1Pjdjp5BKeLsN-1y3" version="21.3.7" type="device">
+  <diagram name="Page-1" id="-enPUACDEl2d51MY0unk">
+    <mxGraphModel dx="978" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCvN_cgMxn0ItQqb8EL2-1" target="XCvN_cgMxn0ItQqb8EL2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-19" value="Ano" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCvN_cgMxn0ItQqb8EL2-18">
+          <mxGeometry x="-0.3165" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCvN_cgMxn0ItQqb8EL2-1" target="XCvN_cgMxn0ItQqb8EL2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-22" value="Ne" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCvN_cgMxn0ItQqb8EL2-21">
+          <mxGeometry x="-0.2003" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-1" value="Zapnutý letní mód nebo letní mód na základě venkovní teploty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="180" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCvN_cgMxn0ItQqb8EL2-2" target="XCvN_cgMxn0ItQqb8EL2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-9" value="Ano" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCvN_cgMxn0ItQqb8EL2-8">
+          <mxGeometry x="-0.1181" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCvN_cgMxn0ItQqb8EL2-2" target="XCvN_cgMxn0ItQqb8EL2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-12" value="Ne" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCvN_cgMxn0ItQqb8EL2-11">
+          <mxGeometry x="0.0224" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-2" value="Teplota horního čidla v zásobníku &amp;lt; (min. horní čido - hystereze spirály)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-4" value="Zapnout spirálu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCvN_cgMxn0ItQqb8EL2-6" target="XCvN_cgMxn0ItQqb8EL2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-14" value="Ano" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCvN_cgMxn0ItQqb8EL2-13">
+          <mxGeometry x="-0.4494" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCvN_cgMxn0ItQqb8EL2-6" target="XCvN_cgMxn0ItQqb8EL2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-17" value="Ne" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCvN_cgMxn0ItQqb8EL2-16">
+          <mxGeometry x="-0.0964" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-6" value="Teplota střední čidlo v zásobníku &amp;gt;= max. střední čido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-10" value="Vypnout spirálu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-15" value="Nech nastavený stav spirály" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCvN_cgMxn0ItQqb8EL2-20" target="XCvN_cgMxn0ItQqb8EL2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-42" value="Ano" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCvN_cgMxn0ItQqb8EL2-38">
+          <mxGeometry x="-0.1466" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCvN_cgMxn0ItQqb8EL2-20" target="XCvN_cgMxn0ItQqb8EL2-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-41" value="Ne" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCvN_cgMxn0ItQqb8EL2-40">
+          <mxGeometry x="-0.1656" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-20" value="Zapnutý zimní mód nebo zimní mód na základě venkovní teploty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="697" y="230" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XCvN_cgMxn0ItQqb8EL2-39" value="Vypnout spirálu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

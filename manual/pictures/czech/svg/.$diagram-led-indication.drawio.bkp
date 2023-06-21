@@ -1,0 +1,35 @@
+<mxfile host="Electron" modified="2023-06-15T09:18:30.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="uq7rA7ve4fkhh_cFFH5C" version="21.3.7" type="device">
+  <diagram name="Page-1" id="WHOPrPphenzzmty_eR5f">
+    <mxGraphModel dx="810" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frygpNk6kedv71zlFNMI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="frygpNk6kedv71zlFNMI-1" target="frygpNk6kedv71zlFNMI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frygpNk6kedv71zlFNMI-6" value="Ano" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frygpNk6kedv71zlFNMI-4">
+          <mxGeometry x="-0.3963" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frygpNk6kedv71zlFNMI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="frygpNk6kedv71zlFNMI-1" target="frygpNk6kedv71zlFNMI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frygpNk6kedv71zlFNMI-7" value="Ne" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frygpNk6kedv71zlFNMI-5">
+          <mxGeometry x="-0.2731" y="1" relative="1" as="geometry">
+            <mxPoint x="4" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frygpNk6kedv71zlFNMI-1" value="Teplota ze zásobníku (spodní/střední senzor) &amp;gt;= max. teplota pro signalizaci (spodní/střední senzor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="frygpNk6kedv71zlFNMI-2" value="Zapni červenou/oranžovou LED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="frygpNk6kedv71zlFNMI-3" value="Vypni červenou/oranžovou LED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
