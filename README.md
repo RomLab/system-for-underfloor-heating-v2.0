@@ -459,7 +459,7 @@ Within the control system, there are the following control types:
 It is assumed that the central the HWT is continuously heated during a day using excess energy through heat exchangers. The central HWT is reheated for any heating needs. Priority is given to obtaining heated heating water from the heat source mentioned earlier. Users are alerted by signals on the displays both at the fireplaces (the picture 16) and at the WRST (the picture 34). Directly in the control system (notifications to the mobile phone (the picture 35), e-mail are also possible) or by LEDs (lighting of all) by fireplaces, there is a need to flood the fireplaces, if the system evaluates that there is a need for heating. If this does not happen, the heating coil is used, which reheats the HWT (it can be controlled automatically). 
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="" width="250px" alt="XXX">
 <p align="center">
 Picture 35: XXX. 
 </p>
@@ -467,17 +467,17 @@ Picture 35: XXX.
 In the picture 36 is interface Home Assistant for settings of heating. In the left menu  are individual floors with thermostats and temperature schedules (described below). In the records tab, history are saved to a database individual states of the control elements and the history of the data itself, especially of the temperature sensors. There are also settings for the user profile and the entire system. In the top menu are other tabs for heating settings, also described below in the text.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/interface-home-assistant-for-settings.png" width="1024px" alt="Interface Home Assistant for settings of heating">
 <p align="center">
-Picture 36: XXX. 
+Picture 36: Interface Home Assistant for settings of heating.
 </p>
 
 In the overview tab (the picture 37) are displayed current temperatures which are used for evaluation in the system Home Assistant. In the section "individual temperatures" are all temperatures measured in the HWT, temperatures on flues in the ground and first floor and outdoor temperature. In the section "temperature comparison" are mentioned temperatures displayed in the one graph.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/current-temperatures.png" width="400px" alt="The current temperatures which are used for evaluation in the system Home Assistant.">
 <p align="center">
-Picture 37: XXX. 
+Picture 37: The current temperatures which are used for evaluation in the system Home Assistant.
 </p>
 
 In the settings tab (the picture 38) is possible to select one type of heating control in the "temperature control" section. In the "control modes" is selection of modes - winter, summer or selection according to outdoor temperature. The choice of mode has affect on selection limit temperatures for switching the heating coil. Temperature limits can be set in the section "switching of heating coil" (temperature limits for summer and winter). These set limits are used for control with the temperature in the upper part of the HWT.
@@ -489,9 +489,9 @@ In the section of settings "fireplaces - switching of pump" is defined min. temp
 In the section "LED indication - limit parameters of the heating water tank" are defined the limit temperatures for the top, middle and bottom part of the HWT. This indication is for users for signalization of heating of the HWT. The blue LED defines the limit minimum temperature that the tank should have in the top part. The orange LED defines the limit maximum temperature when the middle part of the HWT is enough heating. The red LED defines maximum temperature when the bottom part of the HWT is fully heating. Activation of the red LED is before activating of protection of fireplace.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/tab-settings.png" width="1024px" alt="Tab settings.">
 <p align="center">
-Picture 38: XXX. 
+Picture 38: Tab settings. 
 </p>
 
 In the device tab (the picture 39) is showing individual control (turn on/turn off) devices of heasting system - the heating coil, pumps for fireplaces, pumps for underfloor heating and signalization LEDs. The switch "manual device control" is for individual control of devices regardless of the automation.
@@ -501,17 +501,17 @@ In the section "corridor thermostats - required heating" is showing of heating i
 In the section "floor/ground floor - heating circuits (valves)" is showing on status of each valve.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/tab-devices.png" width="1024px" alt="Tab devices.">
 <p align="center">
-Picture 39: XXX. 
+Picture 39: Tab devices. 
 </p>
 
-In other tab in the part "control of pumps - limescale"  (the picture 40) is used to switch pumps for protection before stiffening shoulder blades. If the pumps are not used for long time, the vanes will become stiff.
+In other tab in the part "control of pumps – limescale"  (the picture 40) is used to switch pumps for protection before stiffening shoulder blades. If the pumps are not used for long time, the vanes will become stiff.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/tab-other.png" width="400px" alt="Control of pumps - limescale.">
 <p align="center">
-Picture 40: XXX. 
+Picture 40: Control of pumps – limescale.
 </p>
 
 ### Heating control according to corridor thermostats
@@ -523,17 +523,17 @@ In the ground and first floor are corridor thermostats. This thermostat controls
 According to current temperature measured from each rooms is controlled given heating circuit for heating. The required temperature is possible to set on the WRST or in the system (the picture 41). The changes are reflected in each other. Room heating control is given by a hysteresis of 0.5 °C. The heating control responds to the current measured temperature.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/thermostat-bathroom.png" width="400px" alt="Thermostat.">
 <p align="center">
-Picture 41: XXX. 
+Picture 41: Thermostat. 
 </p>
 
 Local thermostats are sorted to groups according to given floor (the ground floor or the first floor), the picture 42.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/thermostats.png" width="1024px" alt="Thermostats.">
 <p align="center">
-Picture 42: XXX. 
+Picture 42: Thermostats. 
 </p>
 
 Each the thermostat has indication of network connection to the central control unit. Verification takes based on sending the current time. There is detection of open window in a room.
@@ -543,26 +543,26 @@ Each the thermostat has indication of network connection to the central control 
 The heating control according to defined schedules. The user has the option to define time periods with required temperature for each room for all 24 hours. The time schedules set are continuously checked by the system and the system sets the currently required temperature to local WRSTs. This temperature is showed in HA thermostat. The interface for settings of intervals is in the picture 41. The user can add individual interval or remove it. The user can choose whether intervals are applied to all days of the week or just working days, the weekend or selection of specific days of the week. It is possible to define whether the given section should be heated or not.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/temperature-plan-settings.png" width="400px" alt="The interface for settings of intervals.">
 <p align="center">
-Picture 41: XXX. 
+Picture 41: The interface for settings of intervals. 
 </p>
 
 For each room is possible to define individual count of intervals. The overview of individual plans is displayed under each day, the picture 42. 
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/more-temperature-plans.png" width="400px" alt="Individual count of intervals.">
 <p align="center">
-Picture 42: XXX. 
+Picture 42: Individual count of intervals. 
 </p>
 
 ????
 Individual plans can also be paused using the slider button on the right. The general overview of the temperature plans of all rooms for the first floor is possible to see in the picture 43, similar overview is for the ground room.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/all-temperature-plans-for-floor.png" width="1024px" alt="Overview of the temperature plans of all rooms.">
 <p align="center">
-Picture 43: XXX. 
+Picture 43: Overview of the temperature plans of all rooms. 
 </p>
 
 ### Recharging of domestic hot water
