@@ -445,9 +445,9 @@ Picture 33: The converter USB-UART CP2102N. The bottom part of converter. The to
 The WRST still checks that it is connected to network (it is connected cable or it is available WiFi). If it is not connected, it tries to reconnect. The connection status is indicated to the user by an icon in the left corner (green color of the icon for a successful connection status, red color indicates a connection problem). The device checks the connection to the MQTT broker (Mosquitto broker), similarly to the network connection, the device tries to restore the connection automatically. The status is again signaled using the icon in the left corner. The current measured temperature is shown in red on the display (measured every 30 seconds), the required temperature is shown in green. The user can increment the temperature by +0.5 °C with the right button, the left button decrements it by -0.5 °C. The middle button has not implemented function yet. It will be for next settings for example hysteresis. The last line with white text is used to display a message to the user. Currently it displayed request for flooding in a fireplace. The individual parts described above are showed in the picture 34.
 
 <p align="center">
-<img src="XXX" width="250px" alt="XXX">
+<img src="description-pictures/software/wall-mounted-temperature-sensor-with-description.png" width="550px" alt="Wall-mounted room temperature sensor – software.">
 <p align="center">
-Picture 34: XXX. 
+Picture 34: Wall-mounted room temperature sensor – software. 
 </p>
 
 ### Home Assistant - Types of heating control
@@ -459,9 +459,9 @@ Within the control system, there are the following control types:
 It is assumed that the central the HWT is continuously heated during a day using excess energy through heat exchangers. The central HWT is reheated for any heating needs. Priority is given to obtaining heated heating water from the heat source mentioned earlier. Users are alerted by signals on the displays both at the fireplaces (the picture 16) and at the WRST (the picture 34). Directly in the control system (notifications to the mobile phone (the picture 35), e-mail are also possible) or by LEDs (lighting of all) by fireplaces, there is a need to flood the fireplaces, if the system evaluates that there is a need for heating. If this does not happen, the heating coil is used, which reheats the HWT (it can be controlled automatically). 
 
 <p align="center">
-<img src="" width="250px" alt="XXX">
+<img src="description-pictures/software/notification.png" width="400px" alt="Notification for users.">
 <p align="center">
-Picture 35: XXX. 
+Picture 35: Notification for users. 
 </p>
 
 In the picture 36 is interface Home Assistant for settings of heating. In the left menu  are individual floors with thermostats and temperature schedules (described below). In the records tab, history are saved to a database individual states of the control elements and the history of the data itself, especially of the temperature sensors. There are also settings for the user profile and the entire system. In the top menu are other tabs for heating settings, also described below in the text.
