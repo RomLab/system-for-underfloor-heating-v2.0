@@ -2,4 +2,4 @@
 
 The user manual is written in Latex. It is in 2 language – Czech and English. The manual contains basic information about settings of all devices.
 
-I use template based on temmplate: https://github.com/TheMartianLife/TheMartianReport
+I have used a template based on template: https://github.com/TheMartianLife/TheMartianReport
