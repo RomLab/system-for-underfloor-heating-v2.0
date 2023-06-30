@@ -572,6 +572,8 @@ Picture 43: Overview of the temperature plans of all rooms.
 Recharging of the (domestic hot water) is similar as heating according to temperature plans. There is one temperature plan recharging for DHW. There is comparison required temperature with the current temperature in the top part of the HWT. If temperature is low, the system will alert users to flood the fireplace. If they do not do so within a certain time, the heating coil will automatically turn on and heat the top part of the HWT.
 </p>
 
+### Heating control according to temperature plans with adjustment according to the weather forecast
+Description  is in preparation.
 
 ---
 **Software + settings:**
