@@ -308,7 +308,7 @@ In the picture 22 is the cutout of part from all drawing (the picture 4) for dig
 
 ## SSR relay modules
 <p align="center">
-<img src="diagrams/drawio/png/cutout-of-ssr-relays.png" width="250px" alt="The cutout from picture 4 – SSR relays">
+<img src="diagrams/drawio/png/cutout-of-ssr-relays.png" width="350px" alt="The cutout from picture 4 – SSR relays">
 </p>
 <p align="center">
 Picture 23: The cutout from picture 4 – SSR relays.
