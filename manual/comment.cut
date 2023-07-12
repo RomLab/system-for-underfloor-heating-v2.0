@@ -1,1 +1,5 @@
-V tabulce \ref{tab:1-wire-bus} jsou místa a ID teplotních senzorů na 1-Wire sběrnici.
+\includepdf[pages=-]{documentation-of-electric-switchboard/cz/rozpiska.pdf}
+
+\includepdf[pages=-]{documentation-of-electric-switchboard/cz/rozmerovy-vykres.pdf}
+
+\includepdf[pages=-,fitpaper]{documentation-of-electric-switchboard/cz/jednopolove-schema.pdf}

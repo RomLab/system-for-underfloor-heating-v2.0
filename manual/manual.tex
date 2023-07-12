@@ -31,6 +31,9 @@
  right=15mm,
  }
  
+% Include PDF
+\usepackage{pdfpages}
+ 
  
 %%%%%%%%%%%%%%%%%%%%%% SWITCH LANGUAGES %%%%%%%%%%%%%%%%%%%%%%
 \usepackage{comment}
@@ -69,11 +72,11 @@
 \imagefolder{./pictures} % Change folder to look for images in
 %\logo{} % Add logo image to cover page
 \begin{English}
-\revision{Revision 1.0} % Change revision number
+\revision{Revision 1.1} % Change revision number
 \end{English}
 
 \begin{Czech}
-\revision{Revize 1.0} % Change revision number
+\revision{Revize 1.1} % Change revision number
 \end{Czech}
 
 %%%%%%%%%%%%%%%%%%%%%%% GENERAL SETTINGS %%%%%%%%%%%%%%%%%%%%%%%
@@ -94,20 +97,7 @@
 
 \input{hardware}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\input{electric-switchboard}
 
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
