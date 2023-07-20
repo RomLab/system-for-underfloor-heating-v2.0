@@ -55,18 +55,18 @@ There is communication concept in the picture 3.
 Picture 3: Communication part.
 </p>
 
-The communication between the central control unit and wireless/cable WRTS is via protocol MQTT. The central control unit receives information from individual WRTS. Some settings for WRTS is possible to change in the central control unit and sends this settings to WRTS.
+The communication between the central control unit and wireless/cable WRTS is via a protocol MQTT. The central control unit receives information from individual WRTS. Some settings for WRTS are possible to change in the central control unit and sends these settings to WRTS.
 
-The status indicators communicate with the central control unit via I2C bus for showing values on a display. The indication LED are connected in input/output pins of the central control unit.
+The status indicators communicate with the central control unit via a I<sup>2</sup>C and show values on a display. The indication LEDs are connected to input/output pins of the central control unit.
 
-The switching unit is connected to the central control unit for control of the pumps underfloor heating, the pumps for fireplace exchangers and the heating coil.
+The switching unit is connected to the central control unit for control of the pumps for underfloor heating, the pumps for fireplace exchangers and the heating coil.
 
-The zone controller communicates with the central control unit via I2C bus. The zone controller controls heating circuits.
+The zone controller communicates with the central control unit via the I<sup>2</sup>C bus. The zone controller controls heating circuits.
 
-The temperature sensors are located in the HWT, on smoke flue of fireplaces and outdoor temperature. All sensors communicate with the central control unit via 1-Wire bus.
+The temperature sensors are located in the HWT, on the smoke flue of fireplaces and outdoor temperature. All sensors communicate with the central control unit via a 1-Wire bus.
 
 ## Hardware part
-In the picture 4 is drawing of heating system with individual devices for control this system. In the text are descripted individual selected or designed devices which are described in the drawing. In the text is the description of WRTS.
+In the picture 4 is a drawing of the heating system with individual devices for controlling this system. In the text are described individual selected or designed devices. In the text is a description of WRTS. 
 
 <p align="center">
 <img src="diagrams/drawio/png/heating-system-and-electronics-rust-of-house.png" width="700px" alt="Heating system in the house">
