@@ -158,7 +158,7 @@ Picture 11: The merge of the 1-Wire bus by the HWT.
 <img src="/pictures-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="The HWT – the red circles indicate the location of the temperature sensors.">
 </p>
 <p align="center">
-Picture 12: The HWT – the red circles indicate the location of the temperature sensors.
+Picture 12: The HWT – the red circles indicate the locations of the temperature sensors.
 </p>
 
 ### I2C bus
