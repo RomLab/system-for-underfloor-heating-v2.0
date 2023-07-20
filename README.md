@@ -20,30 +20,30 @@ Picture 1: Heating system in the house.
 </p>
 
 ### Hardware part
-There is hardware concept in the picture 2.
+There is a hardware concept in the picture 2.
 
 <p align="center">
 <img src="diagrams/drawio/png/hardware-part.png" width="550px" alt="Hardware part.">
 </p>
 <p align="center">
-Picture 2: Hardware concept.
+Picture 2: The hardware concept.
 </p>
 
-Central control unit is single board computer. 
+The central control unit is a single board computer. 
 
-The first is wireless wall-mounted room temperature sensors (WRTS) are powered from local power adapters, every module has own supply. WRTS is composed of display for showing current temperature and required temperature and other settings. There are 3 buttons. The first is for increase required temperature. The second is for input into menu and the last is for decrease temperature. The last part is a temperature sensor. WRTS communicates with the central control unit via WiFi.
+The first is wireless wall-mounted room temperature sensors (WRTS) are powered by local power adapters, every module has its own supply. WRTS is composed of a display for showing current temperature and required temperature and other settings. There are 3 buttons. The first is for increase required temperature. The second is for input into menu and the last is for decrease temperature. The last part is a temperature sensor. The WRTS communicates with the central control unit via WiFi.
 
-The second is cable wall-mounted room temperature sensors (WRTS) are powered from switch with POE. All parts are same as Wireless WRTS. The cable WRTS communicates with central control unit via POE switch.
+The second is cable wall-mounted room temperature sensors (WRTS) are powered by switch with POE. All parts are the same as Wireless WRTS. The cable WRTS communicates with the central control unit via a POE switch.
 
-The status indicator is connected with the central control unit. It is composed of LED for individually temperatures which are measured from individually parts in HWT. There is a bus for a communication with LCD and the central control unit for showing temperatures from the tank. The status indicators are located by the fireplaces.
+The status indicator is connected to the central control unit. It is composed of LEDs for individual temperatures which are measured from individual parts in HWT. There is a bus for communication with a LCD and the central control unit for showing temperatures from the tank. The status indicators are located by the fireplaces.
 
-The switches unit is composed of relay modules for control individual pumps for circulation heating water in heating circuit of underfloor heating in individual floors. There is controlling for pumps for circulation of water from the fireplace exchanger. Last control is forthe heating coil.
+The switches unit is composed of relay modules for controlling individual pumps for circulation of heating water in the heating circuit of underfloor heating on individual floors. There is control for pumps for circulation of water from the fireplace exchanger. The last control is for the heating coil.
 
-The zone controller is located in the ground floor and in the first floor in distributor for individual heating circuits.  The zone controller communicates with the central control unit via a bus. The zone controller controls individual drives, the drives control individual heating circuits. The drives are connected directly to zone controller.
+The zone controller is located in a distributor for individual heating circuits on the ground floor and on the first floor. The zone controller communicates with the central control unit via a bus. The zone controller controls individual drives. The drives control individual heating circuits. The drives are connected directly to the zone controller.
 
-The network devices are composited of a central switch, a switch with POE abd home WiFi router. The central switch merge all communication from cable WRTSs and from wireless WRTSs.
+The network devices are composed of a central switch, a switch with POE and home WiFi router. The central switch merges all communication from cable WRTSs and wireless WRTSs.
 
-The temperature sensors in HWT are located in three parts of tank (the top part, the middle part and the bottom part). There are temperatures sensors in smoke flues at individual fireplaces for detection of heating in a fireplace.
+The temperature sensors in HWT are located in three parts of the tank (the top part, the middle part and the bottom part). There are temperature sensors in smoke flues at individual fireplaces for detection of heating in a fireplace.
 
 ### Communication part
 There is communication concept in the picture 3.
