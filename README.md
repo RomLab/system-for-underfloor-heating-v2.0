@@ -76,7 +76,7 @@ Picture 4: The Heating system in the house including control electronics.
 </p>
 
 ### Central control unit Raspberry Pi
-In the picture 5 is the cutout of part from all drawing (the picture 4) for central control unit. The central control unit is Raspberry Pi model 4b.
+In the picture 5 is a cutout of a part from the entire drawing (the picture 4) for the central control unit. The central control unit is a Raspberry Pi model 4b.
 
 <p align="center">
 <img src="diagrams/drawio/png/cutout-of-central-control-unit.png" width="250px" alt="The coutout from the picture 4 – the central control unit.">
@@ -94,7 +94,7 @@ Picture 5: The cutout from the picture 4 – the central control unit.
 <img src="pictures-of-final-products/central-control-unit/case-right.jpg" width="800px" alt="The central control unit with a case - right side.">
 </p>
 <p align="center">
-Picture 6: The top part of PCB of the central control unit. The central control unit with a case, rear side, front side, left side and right side.
+Picture 6: The top part of a PCB of the central control unit. The central control unit with a case, rear side, front side, left side and right side.
 </p>
 
 ---
@@ -115,9 +115,9 @@ Picture 6: The top part of PCB of the central control unit. The central control 
 Picture 7: The cutout from the picture 4 – location of temperature sensors by a fireplace.
 </p>
 
-In the picutre 7 is cutout of part from all drawing (the picture 4) for location temperature sensors by a smoke flue. To obtain the temperature from the smoke flue is a thermocouple 72-21301041 type K from manufacture Güenther. The temperature range is from -100 °C to 400 °C. The thermocouple is in the picture 9.
+In the picutre 7 is a cutout of a part of the entire drawing (the picture 4) for location temperature sensors by a smoke flue. To obtain the temperature from the smoke flue is a thermocouple 72-21301041 type K from manufacture Güenther. The temperature range is from -100 °C to 400 °C. The thermocouple is in the picture 9.
 
-In the picture 8 is cutout of part from all drawing (the picture 4) for location temperature sensor in the HWT. To obtain the temperature from the central HWT, outdoor temperature and room temperature from individual rooms is temperature sensor DS18B20 from manufacture Maxim. The temperature range is from -55 °C to +125 °C. It is used sensors in a package TO-92 for the WRTS, for the HWT and outdoor temperature. The sensor is stored in protection package.
+In the picture 8 is a cutout of part of the entire drawing (the picture 4) for location temperature sensor in the HWT. To obtain the temperature from the central HWT, outdoor temperature and room temperature from individual rooms is temperature sensor DS18B20 from manufacture Maxim. The temperature range is from -55 °C to +125 °C. It is used sensors in a package TO-92 for the WRTS, for the HWT and outdoor temperature. The sensor is stored in protection package.
 
 <p align="center">
 <img src="diagrams/drawio/png/cutout-of-hot-water-tank-with-temperatures-sensor.png" width="250px" alt="The cutout from the picture 4 – location of temperature sensors in the heating water tank.">
@@ -136,22 +136,22 @@ Picture 9: Thermocouple 72-21301041 type K.
 </p>
 
 #### 1-Wire bus
-The 1-Wire bus is implemented via UTP cable category 5e. 
+The 1-Wire bus is implemented via a UTP cable category 5e. 
 
 <p align="center">
 <img src="diagrams/drawio/png/cutout-of-1-wire-bus.png" width="250px" alt="The cutout from the picture 4 – location of merge 1-Wire bus by the HWT.">
 </p>
 <p align="center">
-Picture 10: The cutout from the picture 4 – location of merge 1-Wire bus by the HWT.
+Picture 10: The cutout from the picture 4 – location of a merge 1-Wire bus by the HWT.
 </p>
 
-In the picture 10 is cutout of part from all drawing (the picture 4) for merge 1-Wire bus by HWT. In the picture 11 is a PCB for temperature sensor by HWT. In the picutre 4.6b is a top part PCB which is located in an installation box. There are 6 position for fastening via a terminal block for temperature sensors. There are 3 temperature sensors connect for obtain the temperature from the top, middle and bottom part HWT. The location of sensor is given manufacture of tank and sensors are inserted to cavity. The 1-Wire bus is implemented with a UTP cable category 5e. The pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. To obtain the temperature is sensor DS18B20 in the package TO-92 which is connected on the UTP cable and covered plastic material and covered with a shrink protective tube. In the picture 12 are marked places with location of temperature sensors.
+In the picture 10 is a cutout of part of the entire drawing (the picture 4) for merge 1-Wire bus by HWT. In the picture 11 is a PCB for a temperature sensor by HWT. In the picutre 4.6b is a top part PCB which is located in an installation box. There are 6 position for fastening via a terminal block for temperature sensors. There are 3 temperature sensors connected to obtain the temperature from the top, middle and bottom part of the HWT. The location of the sensor is given by the manufacturer of the tank and sensors are inserted into a cavity. The 1-Wire bus is implemented with a UTP cable of category 5e. Pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. To obtain the temperature is sensor DS18B20 in the package TO-92 which is connected to the UTP cable and covered with plastic material and a shrink protective tube. In the picture 12 are marked location with temperature sensors.
 
 <p align="center">
 <img src="/pictures-of-final-products/1-wire/hub-1-wire.jpg" width="250px" alt="The merge of 1-Wire bus by the HWT.">
 </p>
 <p align="center">
-Picture 11: The merge of 1-Wire bus by the HWT.
+Picture 11: The merge of the 1-Wire bus by the HWT.
 </p>
 
 <p align="center">
