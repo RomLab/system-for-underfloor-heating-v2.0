@@ -482,13 +482,13 @@ Current temperatures are displayed in the overview tab (picture 37), which are u
 Picture 37: The current temperatures which are used for evaluation in the system Home Assistant.
 </p>
 
-In the settings tab (the picture 38) is possible to select one type of heating control in the "temperature control" section. In the "control modes" is selection of modes - winter, summer or selection according to outdoor temperature. The choice of mode has affect on selection limit temperatures for switching the heating coil. Temperature limits can be set in the section "switching of heating coil" (temperature limits for summer and winter). These set limits are used for control with the temperature in the upper part of the HWT.
+In the settings tab (the picture 38) is possible to select one type of heating control in the "temperature control" section. In the "control modes" is a selection of modes - winter, summer or selection according to outdoor temperature. The choice of mode has affect on selection limit temperature for switching the heating coil. Temperature limits can be set in the section "switching of heating coil" (temperature limits for summer and winter). These set limits are used to control the temperature in the upper part of the HWT.
 
-If temperature in the top part of the HWT is lower than temperature defined in the part "min. turn on", the heating coil will be switched on to heat the heating water. The boiler switches off at the temperature defined in the "max. turn off". When comparing temperatures is used hysteresis in the section "other settings". In the mode according to outdoor temperature is selected automatic the summer or winter mode. The temperature limit for selection of the summer mode (within the mode according to the outdoor temperature) is defined in the section "min. outdoor temperature for the summer mode". If after warning of users, it won't be flooding in the boiler. The boiler will automatically turn on.
+If the temperature in the top part of the HWT is lower than the temperature defined in the part "min. turn on", the heating coil will be switched on to heat the heating water. The boiler switches off at the temperature defined in "max. turn off". When comparing temperature is used hysteresis in the section "other settings". In the mode according to outdoor temperature is selected automatic summer or winter mode. The temperature limit for selection of the summer mode (within the mode according to the outdoor temperature) is defined in the section "min. outdoor temperature for the summer mode". If after warning of users, it won't be flooding in the boiler. The boiler will automatically turn on.
 
 In the section of settings "fireplaces - switching of pump" is defined min. temperature limit when the circulation pumps for heat exchangers of fireplaces are switched on. In case of flooding in the fireplace, the pumps must be started, otherwise water in the heat exchanger will overheat. If overheating occurs, the protection is activated by the fireplaces and an audible alarm will sound.
 
-In the section "LED indication - limit parameters of the heating water tank" are defined the limit temperatures for the top, middle and bottom part of the HWT. This indication is for users for signalization of heating of the HWT. The blue LED defines the limit minimum temperature that the tank should have in the top part. The orange LED defines the limit maximum temperature when the middle part of the HWT is enough heating. The red LED defines maximum temperature when the bottom part of the HWT is fully heating. Activation of the red LED is before activating of protection of fireplace.
+In the section "LED indication - limit parameters of the heating water tank" are defined the limit temperatures for the top, middle and bottom part of the HWT. This indication is for users to signalization of heating of the HWT. The blue LED defines the minimum temperature that the tank should have in the top part. The orange LED defines the maximum limit temperature when the middle part of the HWT is enough heating. The red LED defines maximum temperature when the bottom part of the HWT is fully heated. Activation of the red LED is before activating of protection of the fireplace.
 
 <p align="center">
 <img src="description-pictures/software/tab-settings.png" width="1024px" alt="Tab settings.">
@@ -496,11 +496,11 @@ In the section "LED indication - limit parameters of the heating water tank" are
 Picture 38: Tab settings. 
 </p>
 
-In the device tab (the picture 39) is showing individual control (turn on/turn off) devices of heasting system - the heating coil, pumps for fireplaces, pumps for underfloor heating and signalization LEDs. The switch "manual device control" is for individual control of devices regardless of the automation.
+In the device tab (the picture 39) is shown individual control (turn on/turn off) devices of the heating system - the heating coil, pumps for fireplaces, pumps for underfloor heating and signalization LEDs. The switch "manual device control" is for individual control of devices regardless of automation.
 
-In the section "corridor thermostats - required heating" is showing of heating in the ground or first floor according to corridor thermostats.
+In the section "corridor thermostats - required heating" is shown heating in the ground or in the first floor according to corridor thermostats.
 
-In the section "floor/ground floor - heating circuits (valves)" is showing on status of each valve.
+In the section "floor/ground floor - heating circuits (valves)" is shown status of each valve.
 
 <p align="center">
 <img src="description-pictures/software/tab-devices.png" width="1024px" alt="Tab devices.">
@@ -508,7 +508,7 @@ In the section "floor/ground floor - heating circuits (valves)" is showing on st
 Picture 39: Tab devices. 
 </p>
 
-In other tab in the part "control of pumps – limescale"  (the picture 40) is used to switch pumps for protection before stiffening shoulder blades. If the pumps are not used for long time, the vanes will become stiff.
+In another tab in the part "control of pumps – limescale"  (the picture 40) is used to switch pumps for protection before stiffening shoulder blades. If the pumps are not used for long time, the vanes will become stiff.
 
 <p align="center">
 <img src="description-pictures/software/tab-other.png" width="400px" alt="Control of pumps - limescale.">
@@ -518,11 +518,11 @@ Picture 40: Control of pumps – limescale.
 
 ### Heating control according to corridor thermostats
 
-In the ground and first floor are corridor thermostats. This thermostat controls independent on settings in the central control unit turn on/turn off a output relay when it is need to heating. This request is subsequently evaluated in the central system and then the  pump for underfloor heating is turned on or turned off and all underfloor heating circuits are opened. All rooms are heated same according to one thermostat.
+In the ground and first floor are corridor thermostats. This thermostat controls independent on settings in the central control unit turn on/turn off a output relay when it is need to heating. This request is subsequently evaluated in the central system and then the  pump for underfloor heating is turned on or turned off and all underfloor heating circuits are opened. All rooms are heated same according to one thermostat.
 
 ### Heating control according to wall room temperature sensors
 
-According to current temperature measured from each rooms is controlled given heating circuit for heating. The required temperature is possible to set on the WRST or in the system (the picture 41). The changes are reflected in each other. Room heating control is given by a hysteresis of 0.5 °C. The heating control responds to the current measured temperature.
+The given heating circuit is controlled by the current temperature measured from each room. The required temperature is possible to set on the WRST or in the system (the picture 41). The changes are reflected in each other. Room heating control is given by a hysteresis of 0.5 °C. The heating control responds to the current measured temperature.
 
 <p align="center">
 <img src="description-pictures/software/thermostat-bathroom.png" width="400px" alt="Thermostat.">
@@ -530,7 +530,7 @@ According to current temperature measured from each rooms is controlled given he
 Picture 41: Thermostat. 
 </p>
 
-Local thermostats are sorted to groups according to given floor (the ground floor or the first floor), the picture 42.
+Local thermostats are sorted to groups according to a given floor (the ground floor or the first floor), the picture 42.
 
 <p align="center">
 <img src="description-pictures/software/thermostats.png" width="1024px" alt="Thermostats.">
@@ -538,11 +538,11 @@ Local thermostats are sorted to groups according to given floor (the ground floo
 Picture 42: Thermostats. 
 </p>
 
-Each the thermostat has indication of network connection to the central control unit. Verification takes based on sending the current time. There is detection of open window in a room.
+Each the thermostat has an indication of network connection to the central control unit. Verification takes based on sending the current time. There is a detection of an open window in a room.
 
 ### Heating control according to temperature plans
 
-The heating control according to defined schedules. The user has the option to define time periods with required temperature for each room for all 24 hours. The time schedules set are continuously checked by the system and the system sets the currently required temperature to local WRSTs. This temperature is showed in HA thermostat. The interface for settings of intervals is in the picture 41. The user can add individual interval or remove it. The user can choose whether intervals are applied to all days of the week or just working days, the weekend or selection of specific days of the week. It is possible to define whether the given section should be heated or not.
+The heating is controlled according to defined schedules. The user has the option to define time periods with the required temperature for each room for all 24 hours. The time schedules set are continuously checked by the system and the system sets the currently required temperature to local WRSTs. This temperature is shown on the HA thermostat. The interface for setting intervals is in the picture 41. The user can add individual intervals or remove them. The user can choose whether intervals are applied to all days of the week or just working days, the weekend or a selection of specific days of the week. It is possible to define whether the given section should be heated or not.
 
 <p align="center">
 <img src="description-pictures/software/temperature-plan-settings.png" width="400px" alt="The interface for settings of intervals.">
@@ -550,7 +550,7 @@ The heating control according to defined schedules. The user has the option to d
 Picture 41: The interface for settings of intervals. 
 </p>
 
-For each room is possible to define individual count of intervals. The overview of individual plans is displayed under each day, the picture 42. 
+For each room is possible to define an individual count of intervals. The overview of individual plans is displayed under each day, the picture 42. 
 
 <p align="center">
 <img src="description-pictures/software/more-temperature-plans.png" width="400px" alt="Individual count of intervals.">
@@ -558,8 +558,7 @@ For each room is possible to define individual count of intervals. The overview 
 Picture 42: Individual count of intervals. 
 </p>
 
-????
-Individual plans can also be paused using the slider button on the right. The general overview of the temperature plans of all rooms for the first floor is possible to see in the picture 43, similar overview is for the ground room.
+Individual plans can be paused using the slider button on the right. The general overview of the temperature plans of all rooms for the first floor is possible to see in the picture 43, similar overview is for the ground floor.
 
 <p align="center">
 <img src="description-pictures/software/all-temperature-plans-for-floor.png" width="1024px" alt="Overview of the temperature plans of all rooms.">
@@ -569,7 +568,7 @@ Picture 43: Overview of the temperature plans of all rooms.
 
 ### Recharging of domestic hot water
  
-Recharging of the (domestic hot water) is similar as heating according to temperature plans. There is one temperature plan recharging for DHW. There is comparison required temperature with the current temperature in the top part of the HWT. If temperature is low, the system will alert users to flood the fireplace. If they do not do so within a certain time, the heating coil will automatically turn on and heat the top part of the HWT.
+Recharging (of the domestic hot water) is similar to heating according to temperature plans. There is one temperature plan for recharging DHW. There is a comparison of the required temperature with the current temperature in the top part of the HWT. If temperature is low, the system will alert users to flood the fireplace. If they do not do so within a certain time, the heating coil will automatically turn on and heat the top part of the HWT.
 </p>
 
 ### Heating control according to temperature plans with adjustment according to the weather forecast
