@@ -161,11 +161,11 @@ Picture 11: The merge of the 1-Wire bus by the HWT.
 Picture 12: The HWT – the red circles indicate the locations of the temperature sensors.
 </p>
 
-### I2C bus
+### I<sup>2</sup>C bus
 
-The I2C bus is realized with integrated circuit PCA9615 from manufacture NXP Semiconductors. The signal SCL and SDA is connected directly from the central control unit to input PCA9615, supply voltage is 3.3 V.  The output from PCA9615 is differential signal. The power supply on this side is 5 V. The bus is implemented via UTP cable category 5e, output form PCA9615 is implemented  via RJ45 connector. The UTP cable and differential transmission allows reach a long distance bus. The longest point of bus is about 30 m. The frequency is used 100 kHz. It is therefore the full-fledged I2C bus.
-The reason for choosing this variant is based on the choice of a display with an I2C bus (simple and cheap solution). It is a classic connection of the display, as if it were located by a small distance from the central control unit and it is not necessary transfer as RS485 to UART and then to I2C bus. The communication is defined via the I2C protocol. The one PCA9615 is located by central control unit and other PCA9615 are located in the end of connected the devices.
-The power supply 5 V is implemented via a separated cable. In the one UTP is the 1-Wire bus and the I2C bus - saving cables. 
+The I<sup>2</sup>C bus is realised with an integrated circuit PCA9615 from manufacture NXP Semiconductors. The signals SCL and SDA are connected directly from the central control unit to input PCA9615, supply voltage is 3.3 V.  The output from PCA9615 is a differential signal. The power supply on this side is 5 V. The bus is implemented via an UTP cable category 5e, output form PCA9615 is implemented via an RJ45 connector. The UTP cable and differential transmission allow reach a long distance bus. The longest point of the bus is about 30 m. The frequency is used 100 kHz. It is therefore the full-fledged I<sup>2</sup>C bus.
+The reason for choosing this variant is based on the choice of a display with an I2C bus (simple and cheap solution). It is a classic connection of the display, as if it was located at a small distance from the central control unit and it is not necessary to transfer from RS485 to UART and then to the I<sup>2</sup>C bus. The communication is defined via the I<sup>2</sup>C protocol. The first PCA9615 is located by the central control unit and other PCA9615 is located in the end of connected devices.
+The power supply 5 V is implemented via a separate cable. In one UTP are the 1-Wire bus and the I<sup>2</sup>C bus - saving cables. 
 
 
 ## Signalization by fireplace
