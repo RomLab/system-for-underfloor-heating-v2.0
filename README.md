@@ -182,14 +182,14 @@ In the picture 13 is a cutout of part of the entire drawing (the picture 4) for 
 Temperature measurement using a thermocouple and a MAX31850K converter. The temperature sensors connected to the smoke flues of the fireplace are implemented using a thermocouple. The termocouple is connected to the integrated circuit MAX31850K, value from the thermocouple is transferred to a digital value including low temperature compensation end and this value is sent via the 1-Wire bus. The thermocouple is type K.
 
 ### LCD display
-For showing temperatures from the bottom, middle and top part of HWT is selected 20 characters and 4 rows LCD display with blue backlight and white letters, the picture 14. The HD44780 controller is used to control the display. The I2C expander PCF8574 is connected to the controller with eight outputs which are connected on data bus for control respectively displaying the character on the display. Each display or PCF8574 expander allows to set a unique device address on the bus using jumpers A0, A1, A2.
+For showing temperatures from the bottom, middle and top part of HWT is selected 20 characters and 4 rows LCD display with blue backlight and white letters, the picture 14. The HD44780 controller is used to control the display. The I<sup>2</sup>C expander PCF8574 is connected to the controller with eight outputs which are connected on the data bus for control respectively displaying characters on the display. Each display or PCF8574 expander allows to set a unique device address on the bus using jumpers A0, A1, A2.
 
 <p align="center">
 <img src="description-pictures/lcd-hd44780-20x4-2004a-rear.png" width="250px" alt="LCD display 20x4 with controller HD44780 - rear">
 <img src="description-pictures/lcd-hd44780-20x4-2004a-top.png" width="250px" alt="LCD display 20x4 with controller HD44780 - top">
 </p>
 <p align="center">
-Picture 13: The LCD display for displaying of temperatures from the HWT. The rear and top part of LCD.
+Picture 13: The LCD display for displaying of temperatures from the HWT. The rear and top parts of the LCD.
 </p>
 
 ### Realized PCB of signalization by fireplace
@@ -200,15 +200,15 @@ Picture 13: The LCD display for displaying of temperatures from the HWT. The rea
 <img src="pictures-of-final-products/signalization-by-fireplace/type-1/pcb-without-display-top.jpg" width="450px" alt="The top part of PCB.">
 </p>
 <p align="center">
-Picture 15: The realized PCB of signalization by fireplace. The bottom part of PCB without the LCD, the bottom part of PCB with the LCD and the top part of PCB.
+Picture 15: The realised PCB of signalization by fireplace. The bottom part of PCB without the LCD, the bottom part of PCB with the LCD and the top part of PCB.
 </p>
 
 ### Installation box
 **Type 1**
 
-It is used a [installation box](https://eshop.sez-cz.cz/e-shop/3597-universalni-krabice-pod-omitku-200x200x70mm?cat_id=129) (SEZ manufacturer, EAN 8585027005075) only the (orange) rear part. The top part is printed from 3D printer.
+It is used a [installation box](https://eshop.sez-cz.cz/e-shop/3597-universalni-krabice-pod-omitku-200x200x70mm?cat_id=129) (SEZ manufacturer, EAN 8585027005075) only the (orange) rear part. The top part is printed on a 3D printer.
 
-All electronics are located in a protective installation box (the picture 16). The box includes two wires for voltage 5 V and ground, three cables for controlling the signaling LEDs, an UTP cable with the 1-Wire bus for the temperature sensor (thermocouple) and the I2C bus.
+All electronics are located in a protective installation box (the picture 16). The box includes two wires for voltage 5 V and ground, three cables for controlling the signalling LEDs, an UTP cable with the 1-Wire bus for the temperature sensor (thermocouple) and the I<sup>2</sup>C bus.
 
 <p align="center">
 <img src="pictures-of-final-products/signalization-by-fireplace/type-1/panel-with-pcb-bottom.jpg" width="450px" alt="The panel type 1 with bottom PCB.">
@@ -216,12 +216,12 @@ All electronics are located in a protective installation box (the picture 16). T
 <img src="pictures-of-final-products/signalization-by-fireplace/type-1/all-installation-1.jpg" width="450px" alt="All installation of the panel type 1 by a fireplace.">
 </p>
 <p align="center">
-Picture 16: The panel type 1. The panel with the bottom PCB. The panel with the top PCB. All installation by a fireplace.
+Picture 16: The panel type 1. The panel with the bottom PCB. The panel with the top PCB. The entire installation by the fireplace.
 </p>
 
 **Type 2**
 
-It is used a [installation box](https://www.gme.cz/v/1511578/u-01-26-instalacni-krabice) (Vigan manufacturer, EAN 90317), the picture 17. The holder for the PCB top printed from 3D printer. his printed part is pasted with epoxy adhesive.
+It is used a [installation box](https://www.gme.cz/v/1511578/u-01-26-instalacni-krabice) (Vigan manufacturer, EAN 90317), the picture 17. The holder for the PCB top was printed on a 3D printer. This printed part is pasted on with epoxy adhesive.
 
 <p align="center">
 <img src="pictures-of-final-products/signalization-by-fireplace/type-2/panel-with-pcb-bottom.jpg" width="450px" alt="The panel type 2 with bottom PCB.">
