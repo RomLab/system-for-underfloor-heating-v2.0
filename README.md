@@ -444,7 +444,7 @@ Picture 33: The converter USB-UART CP2102N. The bottom part of converter. The to
 
 ### Wall-mounted room temperature sensor
 
-The WRST still checks that it is connected to network (it is connected cable or it is available WiFi). If it is not connected, it tries to reconnect. The connection status is indicated to the user by an icon in the left corner (green color of the icon for a successful connection status, red color indicates a connection problem). The device checks the connection to the MQTT broker (Mosquitto broker), similarly to the network connection, the device tries to restore the connection automatically. The status is again signaled using the icon in the left corner. The current measured temperature is shown in red on the display (measured every 30 seconds), the required temperature is shown in green. The user can increment the temperature by +0.5 °C with the right button, the left button decrements it by -0.5 °C. The middle button has not implemented function yet. It will be for next settings for example hysteresis. The last line with white text is used to display a message to the user. Currently it displayed request for flooding in a fireplace. The individual parts described above are showed in the picture 34.
+The WRST still checks that it is connected to network (it is a connected cable or available WiFi). If it is not connected, it tries to reconnect. The connection status is indicated to the user by an icon in the left corner (green color of the icon indicates a successful connection status, red color indicates a connection problem). The device checks the connection to the MQTT broker (Mosquitto broker), similarly to the network connection, the device tries to restore the connection automatically. The status is again signalled using the icon in the left corner. The current measured temperature is shown in red on the display (measured every 30 seconds), the required temperature is shown in green. The user can increment the temperature by +0.5 °C with the right button, the left button decrements it by -0.5 °C. The middle button has not implemented function yet. It will be for next setting, for example hysteresis. The last line with white text is used to display a message to the user. Currently, it shows a request for flooding in a fireplace. The individual parts described above are shown in the picture 34.
 
 <p align="center">
 <img src="description-pictures/software/wall-mounted-temperature-sensor-with-description.png" width="550px" alt="Wall-mounted room temperature sensor – software.">
@@ -458,7 +458,7 @@ Within the control system, there are the following control types:
 - Heating control according to wall room temperature sensors.
 - Heating control according to temperature plans.
 
-It is assumed that the central the HWT is continuously heated during a day using excess energy through heat exchangers. The central HWT is reheated for any heating needs. Priority is given to obtaining heated heating water from the heat source mentioned earlier. Users are alerted by signals on the displays both at the fireplaces (the picture 16) and at the WRST (the picture 34). Directly in the control system (notifications to the mobile phone (the picture 35), e-mail are also possible) or by LEDs (lighting of all) by fireplaces, there is a need to flood the fireplaces, if the system evaluates that there is a need for heating. If this does not happen, the heating coil is used, which reheats the HWT (it can be controlled automatically). 
+It is assumed that the central the HWT is continuously heated during a day using excess energy through heat exchangers. The central HWT is reheated for any heating needs. Priority is given to obtaining heated water from the heat source mentioned earlier. Users are alerted by signals on the displays both at the fireplaces (the picture 16) and at the WRST (the picture 34). Directly in the control system (notifications to the mobile phone (the picture 35), e-mail are also possible) or by LEDs (lighting of all) by fireplaces, there is a need to flood the fireplaces, if the system evaluates that there is a need for heating. If this does not happen, the heating coil is used, which reheats the HWT (it can be controlled automatically). 
 
 <p align="center">
 <img src="description-pictures/software/notification.png" width="400px" alt="Notification for users.">
@@ -466,7 +466,7 @@ It is assumed that the central the HWT is continuously heated during a day using
 Picture 35: Notification for users. 
 </p>
 
-In the picture 36 is interface Home Assistant for settings of heating. In the left menu  are individual floors with thermostats and temperature schedules (described below). In the records tab, history are saved to a database individual states of the control elements and the history of the data itself, especially of the temperature sensors. There are also settings for the user profile and the entire system. In the top menu are other tabs for heating settings, also described below in the text.
+The interface of Home Assistant for heating settings is shown in the picture 36. In the left menu are individual floors with thermostats and temperature schedules (described below). In the records tab, history is saved to a database, individual states of the control elements and the history of the data itself, especially of the temperature sensors. There are also settings for the user profile and the entire system. In the top menu are other tabs for heating settings, also described below in the text.
 
 <p align="center">
 <img src="description-pictures/software/interface-home-assistant-for-settings.png" width="1024px" alt="Interface Home Assistant for settings of heating">
@@ -474,7 +474,7 @@ In the picture 36 is interface Home Assistant for settings of heating. In the le
 Picture 36: Interface Home Assistant for settings of heating.
 </p>
 
-In the overview tab (the picture 37) are displayed current temperatures which are used for evaluation in the system Home Assistant. In the section "individual temperatures" are all temperatures measured in the HWT, temperatures on flues in the ground and first floor and outdoor temperature. In the section "temperature comparison" are mentioned temperatures displayed in the one graph.
+Current temperatures are displayed in the overview tab (picture 37), which are used for evaluation in the system Home Assistant. In the section "individual temperatures" are all temperatures measured in the HWT, temperatures on flues in the ground and first floor and outdoor temperature. Temperatures are displayed in a single graph in the section "temperature comparison."
 
 <p align="center">
 <img src="description-pictures/software/current-temperatures.png" width="400px" alt="The current temperatures which are used for evaluation in the system Home Assistant.">
