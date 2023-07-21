@@ -384,12 +384,12 @@ Picture 28: The realised PCB of the wall mounted room temperature sensor – Eth
 <img src="diagrams/drawio/png/cutout-of-wall-mounted-room-temperature-sensor-wifi.png" width="450px" alt="The cutout from the  picture 4 – the wall mounted room temperature sensor – WiFi.">
 </p>
 <p align="center">
-Picture 29: The cutout from the  picture 4 – the wall mounted room temperature sensor – WiFi.
+Picture 29: The cutout from the picture 4 – the wall mounted room temperature sensor – WiFi.
 </p>
 
-In the picture 29 is cutout of part from all drawing (the picture 4) for WRST (variant with WiFi). In the picture 30 is a block diagram of the WRST communicates via WiFi and powered by a power adapter (Mean Well GSM06E05-P1J). This variant does not have power supply by POE and the circuit W5500 with implementing Ethernet communication as the variant above.
+In the picture 29 is cutout of a part of the entire drawing (the picture 4) for WRST (variant with WiFi). In the picture 30 is a block diagram of the WRST communicates via WiFi and is powered by a power adapter (Mean Well GSM06E05-P1J). This variant does not have power supply by POE and the circuit W5500 hasn't implemented Ethernet communication as in the variant above.
 
-In the picture 31 is the top part realized PCB for the WRST with WiFi. In the picture 30 is the bottom part realized PCB. In the picture 30 is PCB with the display. 
+The top part of realised PCB is shown in the picture 31 for the WRST with WiFi. The bottom part of realised PCB is shown in the picture 30. In the picture 30 is PCB with the display. 
 
 <p align="center">
 <img src="diagrams/drawio/png/block-diagram-of-wall-mounted-room-temperature-sensor-wifi.png" width="550px" alt="The cutout from the picture 4 – the block diagram of wall-mounted room temperature sensor – WiFi">
@@ -408,7 +408,7 @@ Picture 31: The realized PCB of the wall mounted room temperature sensor – WiF
 </p>
 
 #### Box for the wall-mounted room temperature sensor
-The box for the WRST is printed on the 3D printer Prusa i3 MK3s (the picture 32). The plastic is used PET-G. The box has size 130 × 99 × 26 mm. The box for both the version with Ethernet and for WiFi is the same, it differs only in the connector for RJ45 and the DC connector for the adapter.
+The box for the WRST is printed on the 3D printer Prusa i3 MK3s (the picture 32). The plastic is PET-G. The box has a size of 130 × 99 × 26 mm. The box for both the version with Ethernet and for WiFi is the same, it differs only in the connector for RJ45 and the DC connector for the adapter.
 
 <p align="center">
 <img src="pictures-of-final-products/wall-mounted-room-temperature-sensor/wall-mounted-room-temperature-sensor-with-case.png" width="450px" alt="The Box for the wall-mounted room temperature sensor.">
@@ -430,7 +430,7 @@ Picture 32: The Box for the wall-mounted room temperature sensor.
 
 ## Converter USB-UART CP2102N
 
-For programming the WRST, modul ESP32 Wrover-IE is used converter USB-UART CP2102N. It is used a module CP2102N MINEK (the picture 33). The module is supplemented with a transistor connection for automatic reset and automatic boot of the module (the picture 33). The DTR (Data Terminal Ready) and RTS (Request To Send) signals are used from the module. If it needs to enter the bootloader to upload new firmware, it is necessary to hold boot and then press reset, the device is thus ready to upload new firmware. From the module are brought out to a connector 5 V, GND, RXD, TXD, EN and IO0. Communication between the CP2102N and the ESP32 is via the RXD and TXD wires.
+For programming the WRST, modul ESP32 Wrover-IE is used converter USB-UART CP2102N. It is used a module CP2102N MINEK (the picture 33). The module is supplemented with a transistor connection for automatic reset and automatic boot of the module (the picture 33). The DTR (Data Terminal Ready) and RTS (Request To Send) signals are used by the module. If it needs to enter the bootloader to upload new firmware, it is necessary to hold boot and then press reset, the device is thus ready to upload new firmware. From the module are brought out to connectors 5 V, GND, RXD, TXD, EN and IO0. Communication between the CP2102N and the ESP32 is via the RXD and TXD wires.
 
 <p align="center">
 <img src="pictures-of-final-products/converter-usb-uart-cp2102n/converter-usb-uart-cp2102n-bottom.png" width="250px" alt="The PCB bottom part.">
