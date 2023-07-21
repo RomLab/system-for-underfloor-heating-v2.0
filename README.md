@@ -250,7 +250,7 @@ Picture 17: The panel type 2. The panel with the bottom PCB. The panel with the 
 Picture 18: The cutout from the picture 4 – the zone controller.
 </p>
 
-In the picture 18 is cutout of part from all drawing (the picture 4) for the zone controller. The zone controller is composited from integrated circuit PCA9615 for realization the I2C bus via differential pairs. The bus is implemented using category 5e UTP cable. The PCA9615 is connected with PCA9685 from company NXP Semiconductors. The outputs from PCA9685 control individual thermoelectric drives (total of 12 drives, each controlled independently). This drives respectively valves control individual circuits. The zone regulators are located in the distributor of the heating circuits on the ground floor and on the first floor of the house.
+In the picture 18 is a cutout of part of the entire drawing (the picture 4) for the zone controller. The zone controller is composited from integrated circuit PCA9615 for realisation of the I2C bus via differential pairs. The bus is implemented using category 5e UTP cable. The PCA9615 is connected to the PCA9685 from manufacturer NXP Semiconductors. The outputs from PCA9685 control individual thermoelectric drives (total of 12 drives, each controlled independently). This drives respectively valves control individual circuits. The zone regulators are located in the distributor of the heating circuits on the ground floor and on the first floor of the house.
 
 ### Realized PCB of zone controller
 <p align="center">
@@ -258,7 +258,7 @@ In the picture 18 is cutout of part from all drawing (the picture 4) for the zon
 <img src="pictures-of-final-products/zone-controller/pcb-top.jpg" width="450px" alt="The top part of PCB.">
 </p>
 <p align="center">
-Picture 19: The realized PCB of the zone controller. The bottom part of PCB and the top part of PCB.
+Picture 19: The realised PCB of the zone controller. The bottom part of PCB and the top part of PCB.
 </p>
 
 ### Case
@@ -276,7 +276,7 @@ Picture 20: The panel with the top PCB. The top of part panel. The panel with th
 
 ### Thermoelectric drives Salus T30NC
 
-In the picture 21 is a Salus T30NC thermoelectric drive is used for control valves for individual heating circuits. It is supply with 24 V DC, maximum current peak when turn on it is 250 mA. Operating power is 2 W. The thread size is M30 × 1.5 mm. Maximum valve stem stroke length is 4 mm. The drive force is 100 N (±10%). The time for opening is approximately 2 minutes. It is type of NC (Normally Closed). When the power is off, the valve is closed. The 12 of these drives are used for each floor.
+In the picture 21 is a Salus T30NC thermoelectric drive is used for control valves for individual heating circuits. It is supplied with 24 V DC, maximum current peak when turned on is 250 mA. Operating power is 2 W. The thread size is M30 × 1.5 mm. The maximum valve stem stroke length is 4 mm. The drive force is 100 N (±10%). The opening time is approximately 2 minutes. It is a type of NC (Normally Closed). When the power is off, the valve is closed. Twelve of these drives are used for each floor.
 
 <p align="center">
 <img src="pictures-of-final-products/others/thermoelectric-drive-salus-t30nc-24v.png" width="250px" alt="Thermoelectric drive Salus T30NC.">
