@@ -266,6 +266,7 @@ Picture 19: The realised PCB of the zone controller. The bottom part of PCB and 
 <p align="center">
 <img src="pictures-of-final-products/zone-controller/panel-with-pcb-top.jpg" width="450px" alt=" The panel with the top PCB. ">
 <img src="pictures-of-final-products/zone-controller/panel-top.jpg" width="450px" alt="The top of part panel.">
+<img src="pictures-of-final-products/zone-controller/panel-top-open-protection.jpg" width="450px" alt="The top of part panel with open protection.">
 <img src="pictures-of-final-products/zone-controller/panel-with-shield-top.jpg" width="450px" alt="The panel with the bottom shield."> <br>
 <img src="pictures-of-final-products/zone-controller/panel-with-pcb-shield-front.jpg" width="450px" alt="The front side of the panel with the shield.">
 <img src="pictures-of-final-products/zone-controller/panel-with-pcb-shield-right.jpg" width="450px" alt="The right side of the panel with the shield.">
