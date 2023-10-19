@@ -129,7 +129,7 @@ Picture 8: The cutout from the picture 4 – location of temperature sensors in 
 
 
 <p align="center">
-<img src="/pictures-of-final-products/others/thermocouple-72-21301041-type-k.png" width="250px" alt="Thermocouple 72-21301041 type K.">
+<img src="pictures-of-final-products/others/thermocouple-72-21301041-type-k.png" width="250px" alt="Thermocouple 72-21301041 type K.">
 </p>
 <p align="center">
 Picture 9: Thermocouple 72-21301041 type K.
@@ -148,14 +148,14 @@ Picture 10: The cutout from the picture 4 – location of a merge 1-Wire bus by 
 In the picture 10 is a cutout of part of the entire drawing (the picture 4) for merge 1-Wire bus by HWT. In the picture 11 is a PCB for a temperature sensor by HWT. In the picutre 4.6b is a top part PCB which is located in an installation box. There are 6 position for fastening via a terminal block for temperature sensors. There are 3 temperature sensors connected to obtain the temperature from the top, middle and bottom part of the HWT. The location of the sensor is given by the manufacturer of the tank and sensors are inserted into a cavity. The 1-Wire bus is implemented with a UTP cable of category 5e. Pin 4 is Data, pin 5 is GND and 3 pin is supply voltage. To obtain the temperature is sensor DS18B20 in the package TO-92 which is connected to the UTP cable and covered with plastic material and a shrink protective tube. In the picture 12 are marked location with temperature sensors.
 
 <p align="center">
-<img src="/pictures-of-final-products/1-wire/hub-1-wire.jpg" width="250px" alt="The merge of 1-Wire bus by the HWT.">
+<img src="pictures-of-final-products/1-wire/hub-1-wire.jpg" width="250px" alt="The merge of 1-Wire bus by the HWT.">
 </p>
 <p align="center">
 Picture 11: The merge of the 1-Wire bus by the HWT.
 </p>
 
 <p align="center">
-<img src="/pictures-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="The HWT – the red circles indicate the location of the temperature sensors.">
+<img src="pictures-of-final-products/others/heating-water-tank-with-temperature-sensors.png" width="250px" alt="The HWT – the red circles indicate the location of the temperature sensors.">
 </p>
 <p align="center">
 Picture 12: The HWT – the red circles indicate the locations of the temperature sensors.
