@@ -330,7 +330,7 @@ Picture 24: The cutout from picture 4 – the electric switchboard.
 
 <p align="center">
 <img src="pictures-of-final-products/electric-switchboard/electric-switchboard-without-case-of-central-control-unit.jpg" width="450px" alt="The final electric switchboard without case.">
-<img src="pictures-of-final-products/electric-switchboard/electric-switchboard-with-case-of-central-control-unit-2.jpg" width="450px" alt="The final electric switchboard with case.">
+<img src="pictures-of-final-products/electric-switchboard/electric-switchboard-with-case-of-central-control-unit-3.jpg" width="450px" alt="The final electric switchboard with case.">
 </p>
 <p align="center">
 Picture 25: The final electric switchboard.
