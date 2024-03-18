@@ -4,8 +4,8 @@ The system for regulation of zone heating of family house. Proposed control syst
 
 This version 2.0 is based on [my diploma thesis](https://dspace.cvut.cz/handle/10467/99223). This version is fully redesigned. 
 
-- [Czech manual](https://github.com/RomLab/system-for-underfloor-heating-v2.0/blob/main/manual/manual-cz.pdf)
-- English manual is in preparation.
+- [Czech manual](https://github.com/RomLab/system-for-underfloor-heating-v2.0/blob/main/manual/manual-cs.pdf)
+- [English manual](https://github.com/RomLab/system-for-underfloor-heating-v2.0/blob/main/manual/manual-en.pdf)
 
 I have made all devices in the workroom [MacGyver SH](https://macgyver.siliconhill.cz/) (I used measuring devices, tools and others). Mr. [bkralik](https://github.com/bkralik) helped me with the milling work of a box (the part Installation box – type 2).
 
