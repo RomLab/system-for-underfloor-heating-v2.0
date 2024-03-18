@@ -400,7 +400,7 @@ Picture 30: The realised PCB of the wall mounted room temperature sensor – Eth
 Picture 31: The cutout from the picture 4 – the wall mounted room temperature sensor – WiFi.
 </p>
 
-In the picture 31 is cutout of a part of the entire drawing (the picture 4) for WRST (variant with WiFi). In the picture 32 is a block diagram of the WRST communicates via WiFi and is powered by a power adapter (Mean Well GSM06E05-P1J). This variant does not have power supply by POE and the circuit W5500 hasn't implemented Ethernet communication as in the variant above.
+In the picture 31 is cutout of a part of the entire drawing (the picture 4) for WRST (variant with WiFi). In the picture 32 is a block diagram of the WRST communicates via WiFi and is powered by a power adapter (Mean Well GSM06E05-P1J). This variant does not have power supply by POE and the circuit W5500 has not implemented Ethernet communication as in the variant above. There is used external the antenna [2JF0102P-010MC137-UFL_ TRALO](https://www.tme.eu/cz/details/f0102p010mc137ufl/anteny-wifi-bluetooth/2j/2jf0102p-010mc137-ufl-tralo/)
 
 The top part of realised PCB is shown in the picture 33 for the WRST with WiFi. The bottom part of realised PCB is shown in the picture 33. In the picture 33 is PCB with the display. 
 
